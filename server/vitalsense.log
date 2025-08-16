@@ -1,0 +1,1212 @@
+2025-08-16 00:50:31,871 - __main__ - ERROR - Please install all dependencies: pip install -r requirements.txt
+2025-08-16 00:57:56,210 - __main__ - ERROR - Please install all dependencies: pip install -r requirements.txt
+2025-08-16 01:00:24,133 - __main__ - ERROR - Please install all dependencies: pip install -r requirements.txt
+2025-08-16 02:06:33,460 - __main__ - ERROR - Please install all dependencies: pip install -r requirements.txt
+2025-08-16 02:07:40,183 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:07:40,411 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:07:41,320 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:07:47,753 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:07:48,325 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:07:48,891 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:07:48,891 - __main__ - ERROR - ✗ Missing dependency: No module named 'pymupdf'
+2025-08-16 02:07:48,892 - __main__ - ERROR - ✗ Missing dependency: No module named 'pytesseract'
+2025-08-16 02:07:48,892 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:07:48,892 - __main__ - ERROR - Please install all dependencies: pip install -r requirements.txt
+2025-08-16 02:08:16,990 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:08:17,285 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:08:18,332 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:08:26,213 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:08:26,863 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:08:27,435 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:08:27,693 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:08:27,697 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:08:27,697 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:08:27,697 - __main__ - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-08-16 02:08:27,697 - __main__ - INFO - You can set it in a .env file or as an environment variable
+2025-08-16 02:08:27,697 - __main__ - INFO - The system will work but AI features will be limited
+2025-08-16 02:08:27,698 - __main__ - INFO - Created directory: uploads
+2025-08-16 02:08:27,699 - __main__ - INFO - Created directory: chroma_db
+2025-08-16 02:08:27,699 - __main__ - INFO - Created directory: logs
+2025-08-16 02:08:27,734 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:08:27,735 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:08:32,671 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:08:32,672 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:08:33,260 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:08:33,261 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:08:33,261 - ai.gemini_api - ERROR - Error initializing Gemini API: Google API key is required. Set GOOGLE_API_KEY environment variable.
+2025-08-16 02:08:33,261 - __main__ - ERROR - Failed to start Flask application: Google API key is required. Set GOOGLE_API_KEY environment variable.
+2025-08-16 02:09:20,572 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:09:20,797 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:09:21,694 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:09:28,792 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:09:29,499 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:09:30,112 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:09:30,186 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:09:30,189 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:09:30,189 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:09:30,189 - __main__ - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-08-16 02:09:30,189 - __main__ - INFO - You can set it in a .env file or as an environment variable
+2025-08-16 02:09:30,190 - __main__ - INFO - The system will work but AI features will be limited
+2025-08-16 02:09:30,190 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:09:30,190 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:09:30,190 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:09:30,205 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:09:30,205 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:09:35,149 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:09:35,151 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:09:35,280 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:09:35,280 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:09:35,280 - ai.gemini_api - WARNING - Google API key not provided. AI features will be limited.
+2025-08-16 02:09:35,280 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:09:35,282 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:09:35,282 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:09:35,305 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.45.87:5000
+2025-08-16 02:09:35,305 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 02:09:35,308 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:09:35,423 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:09:35,652 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:09:36,585 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:09:43,125 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:09:43,747 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:09:44,355 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:09:44,429 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:09:44,432 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:09:44,432 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:09:44,432 - __main__ - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-08-16 02:09:44,432 - __main__ - INFO - You can set it in a .env file or as an environment variable
+2025-08-16 02:09:44,432 - __main__ - INFO - The system will work but AI features will be limited
+2025-08-16 02:09:44,433 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:09:44,433 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:09:44,433 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:09:44,447 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:09:44,447 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:09:49,123 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:09:49,124 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:09:49,256 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:09:49,256 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:09:49,256 - ai.gemini_api - WARNING - Google API key not provided. AI features will be limited.
+2025-08-16 02:09:49,256 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:09:49,258 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:09:49,258 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:09:49,267 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:09:49,273 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:10:33,062 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\ai\\gemini_api.py', reloading
+2025-08-16 02:10:34,248 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:10:34,368 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:10:34,666 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:10:35,685 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:10:42,612 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:10:43,209 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:10:43,854 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:10:43,937 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:10:43,941 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:10:43,941 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:10:43,941 - __main__ - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-08-16 02:10:43,941 - __main__ - INFO - You can set it in a .env file or as an environment variable
+2025-08-16 02:10:43,942 - __main__ - INFO - The system will work but AI features will be limited
+2025-08-16 02:10:43,942 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:10:43,942 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:10:43,942 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:10:43,953 - __main__ - ERROR - Failed to start Flask application: unterminated string literal (detected at line 9) (gemini_api.py, line 9)
+2025-08-16 02:11:23,463 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:11:23,676 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:11:24,515 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:11:31,234 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:11:31,837 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:11:32,449 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:11:32,531 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:11:32,534 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:11:32,534 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:11:32,535 - __main__ - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-08-16 02:11:32,535 - __main__ - INFO - You can set it in a .env file or as an environment variable
+2025-08-16 02:11:32,535 - __main__ - INFO - The system will work but AI features will be limited
+2025-08-16 02:11:32,535 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:11:32,535 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:11:32,535 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:11:32,555 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:11:32,555 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:11:37,276 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:11:37,276 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:11:37,396 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:11:37,397 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:11:37,397 - ai.gemini_api - WARNING - Google API key not provided. AI features will be limited.
+2025-08-16 02:11:37,397 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:11:37,399 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:11:37,399 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:11:37,414 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.45.87:5000
+2025-08-16 02:11:37,414 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 02:11:37,416 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:11:37,532 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:11:37,821 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:11:38,755 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:11:48,258 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:11:50,143 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:11:52,213 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:11:52,426 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:11:52,434 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:11:52,435 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:11:52,435 - __main__ - WARNING - GOOGLE_API_KEY not found in environment variables
+2025-08-16 02:11:52,435 - __main__ - INFO - You can set it in a .env file or as an environment variable
+2025-08-16 02:11:52,437 - __main__ - INFO - The system will work but AI features will be limited
+2025-08-16 02:11:52,437 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:11:52,437 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:11:52,438 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:11:52,474 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:11:52,476 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:11:57,381 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:11:57,382 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:11:57,673 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:11:57,674 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:11:57,674 - ai.gemini_api - WARNING - Google API key not provided. AI features will be limited.
+2025-08-16 02:11:57,674 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:11:57,677 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:11:57,677 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:11:57,702 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:11:57,748 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:11:58,465 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:11:58] "GET / HTTP/1.1" 200 -
+2025-08-16 02:12:02,259 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:12:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-16 02:14:11,389 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:14:11,676 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:14:12,769 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:14:21,684 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:14:22,459 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:14:23,262 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:14:23,348 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:14:23,353 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:14:23,353 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:14:23,353 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:14:23,354 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:14:23,354 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:14:23,354 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:14:23,369 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:14:23,369 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:14:28,348 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:14:28,348 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:14:28,483 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:14:28,483 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:14:28,484 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:14:28,484 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:14:28,485 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:14:28,486 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:14:28,508 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.45.87:5000
+2025-08-16 02:14:28,509 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 02:14:28,513 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:14:28,638 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:14:28,863 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:14:29,839 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:14:36,892 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:14:37,488 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:14:38,088 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:14:38,159 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:14:38,162 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:14:38,162 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:14:38,162 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:14:38,162 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:14:38,162 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:14:38,162 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:14:38,176 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:14:38,176 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:14:43,036 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:14:43,036 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:14:43,150 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:14:43,151 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:14:43,151 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:14:43,151 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:14:43,153 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:14:43,153 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:14:43,162 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:14:43,168 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:21:08,619 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:21:08,890 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:21:10,003 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:21:17,935 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:21:18,722 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:21:19,429 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:21:19,622 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:21:19,626 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:21:19,626 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:21:19,626 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:21:19,627 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:21:19,627 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:21:19,627 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:21:19,646 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:21:19,646 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:21:24,843 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:21:24,843 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:21:25,058 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:21:25,058 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:21:25,058 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:21:25,058 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:21:25,061 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:21:25,061 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:21:25,083 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.45.87:5000
+2025-08-16 02:21:25,083 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 02:21:25,086 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:21:25,206 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:21:25,427 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:21:26,357 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:21:33,202 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:21:33,960 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:21:34,722 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:21:34,803 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:21:34,808 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:21:34,808 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:21:34,808 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:21:34,808 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:21:34,808 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:21:34,808 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:21:34,823 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:21:34,823 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:21:39,860 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:21:39,860 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:21:40,009 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:21:40,010 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:21:40,010 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:21:40,010 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:21:40,011 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:21:40,012 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:21:40,020 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:21:40,030 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:21:59,782 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:21:59] "GET / HTTP/1.1" 200 -
+2025-08-16 02:24:17,399 - app - INFO - File saved: uploads\db705dc2-76b7-40e6-a6a3-8c0cddf7553e.pdf
+2025-08-16 02:24:17,406 - app - ERROR - Error processing medical report: cannot import name 'fitz' from 'pymupdf' (C:\Users\HP\Desktop\Vitalsense\env\Lib\site-packages\pymupdf\__init__.py)
+2025-08-16 02:24:17,407 - app - ERROR - Error processing upload: cannot import name 'fitz' from 'pymupdf' (C:\Users\HP\Desktop\Vitalsense\env\Lib\site-packages\pymupdf\__init__.py)
+2025-08-16 02:24:17,411 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:24:17] "[35m[1mPOST /api/upload HTTP/1.1[0m" 500 -
+2025-08-16 02:27:40,993 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:27:41,360 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:27:42,677 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:27:50,966 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:27:51,677 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:27:52,314 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:27:52,491 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:27:52,495 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:27:52,495 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:27:52,495 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:27:52,495 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:27:52,495 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:27:52,495 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:27:52,511 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:27:52,512 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:27:57,964 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:27:57,965 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:27:58,180 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:27:58,181 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:27:58,181 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:27:58,181 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:27:58,183 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:27:58,183 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:27:58,215 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.45.87:5000
+2025-08-16 02:27:58,215 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 02:27:58,219 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:27:58,355 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:27:58,586 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:27:59,534 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:28:06,916 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:28:07,506 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:28:08,130 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:28:08,209 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:28:08,212 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:28:08,212 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:28:08,212 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:28:08,213 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:28:08,213 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:28:08,213 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:28:08,225 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:28:08,225 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:28:12,961 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:28:12,961 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:28:13,081 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:28:13,081 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:28:13,081 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:28:13,081 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:28:13,083 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:28:13,083 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:28:13,090 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:28:13,099 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:28:13,634 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:28:13] "GET /api/health HTTP/1.1" 200 -
+2025-08-16 02:28:46,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\app.py', reloading
+2025-08-16 02:28:47,761 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:28:47,863 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:28:48,073 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:28:48,894 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:28:57,875 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:28:58,586 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:28:59,286 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:28:59,381 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:28:59,385 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:28:59,385 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:28:59,385 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:28:59,386 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:28:59,386 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:28:59,386 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:28:59,407 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:28:59,408 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:29:04,523 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:29:04,523 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:29:04,645 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:29:04,645 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:29:04,645 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:29:04,646 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:29:04,647 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:29:04,647 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:29:04,655 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:29:04,663 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:29:05,219 - app - INFO - File saved: uploads\9ec2a97d-902a-4623-a52c-ca6e4e5f3b25.pdf
+2025-08-16 02:29:05,531 - rag.vector_store - ERROR - Error adding document to vector store: Expected embeddings to be a list of floats or ints, a list of lists, a numpy array, or a list of numpy arrays, got [[[-0.007216242607682943, -0.007835050113499165, -0.06742477416992188, -0.009654456749558449, -0.015702983364462852, 0.03478482365608215, -0.007681048940867186, 0.17558744549751282, 0.053043629974126816, 0.014772197231650352, -0.02578725479543209, -0.062036700546741486, -0.049893978983163834, 0.002561444416642189, -0.05719778314232826, -0.053479503840208054, 0.09001753479242325, 0.01264230441302061, -0.058652136474847794, -0.05679496005177498, 0.0313572883605957, 0.012904305011034012, 0.056981418281793594, 0.016337674111127853, -0.005431321915239096, 0.009149713441729546, -0.09731706976890564, -0.030591702088713646, -0.01838708110153675, 0.02114761620759964, -0.028074348345398903, 0.03215692937374115, 0.09806179255247116, -0.005820910446345806, 0.03170829638838768, -0.04654117301106453, -0.009372076950967312, -0.024769853800535202, -0.06824170798063278, 0.019678426906466484, 0.05436071380972862, -0.02502945251762867, 0.03192325681447983, 0.028700266033411026, -0.03176091983914375, 0.017948275431990623, -0.030448434874415398, 0.01119604054838419, -0.04702462628483772, 0.09562008827924728, 0.053465165197849274, 0.0766942948102951, -0.06415727734565735, 0.03207392618060112, -0.04736621305346489, -0.01228674128651619, -0.11495707184076309, -0.09532687813043594, 0.023085927590727806, 0.019320277497172356, -0.17074459791183472, 0.019307389855384827, -0.0040304758585989475, -0.007433887105435133, -0.013091427274048328, -0.01636258140206337, 0.06060872599482536, -0.014331058599054813, -0.0036620714236050844, 0.01628946326673031, 0.06437595933675766, 0.010529161430895329, 0.001093918806873262, 0.049946047365665436, -0.07385843992233276, 0.019314125180244446, 0.03218536823987961, 0.02395818382501602, 0.006452792789787054, -0.013623516075313091, 0.01097784098237753, 0.07591830939054489, 0.03884830325841904, 0.03145139291882515, -0.003913668915629387, 0.05142321437597275, -0.0546497143805027, 0.0862177163362503, -0.1072809100151062, 0.01133918296545744, 0.08458292484283447, 0.05768696963787079, -0.029194774106144905, 0.047457508742809296, 0.051181405782699585, 0.009499829262495041, -0.029551740735769272, 0.0985674113035202, 0.06284352391958237, -0.08279172331094742, -0.0236556027084589, -0.0033472354989498854, 0.02316976524889469, 0.007590208202600479, -0.03019111603498459, -0.025634529069066048, 0.0958130732178688, -0.00901599321514368, 0.021183736622333527, -0.039093270897865295, 0.07870705425739288, -0.024524828419089317, 0.03886615112423897, -0.02226976864039898, 0.05328139662742615, -0.05150273069739342, 0.030201559886336327, -0.01023214589804411, 0.027519313618540764, 0.03541604429483414, 0.02214707061648369, -0.054273899644613266, 0.04778618365526199, -0.023477232083678246, 0.06509397178888321, 0.018298080191016197, 0.050705235451459885, 9.448943914120146e-33, 0.0057397219352424145, -0.028467513620853424, 0.09774356335401535, 0.0299077145755291, -0.04563803970813751, 0.07697328925132751, 0.011143152602016926, 0.06756119430065155, -0.01715301163494587, 0.09016522765159607, -0.05000964552164078, 0.012543183751404285, 0.03169989958405495, 0.06418798118829727, -0.08931080996990204, 0.005178895778954029, 0.06342581659555435, -0.08546222746372223, -0.05165211111307144, 0.06772468984127045, 0.01650138385593891, -0.06017954275012016, 0.043252795934677124, -0.002697636839002371, -0.030287843197584152, 0.08018649369478226, -0.107779860496521, 0.04767592251300812, -0.004837040789425373, 0.010991479270160198, 0.0141971530392766, -0.003909036051481962, 0.0556771345436573, 0.002306129550561309, -0.10246690362691879, -0.009798153303563595, -0.10023876279592514, 0.032788001000881195, -0.033317796885967255, 0.010516033507883549, -0.047641728073358536, 0.0657523050904274, -0.10168331116437912, -0.0271920133382082, 0.005109547637403011, -0.11206860095262527, -0.023791106417775154, -0.056847088038921356, -0.032223280519247055, 0.07842189818620682, 0.0015260862419381738, -0.011699292808771133, 0.05802227556705475, 0.0015843176515772939, -0.008597003296017647, 0.0170197281986475, -0.037051886320114136, 0.06868922710418701, -0.014016660861670971, 0.09074766933917999, -0.013670507818460464, 0.07343652099370956, -0.03858630359172821, -0.007898779585957527, 0.09672002494335175, 0.09252698719501495, -0.037311892956495285, -0.02549763396382332, -0.05606040358543396, -0.042269520461559296, 0.11865846812725067, -0.0017380829667672515, -0.033643562346696854, -0.009708277881145477, -0.008613419719040394, 0.04577657952904701, 0.03526204824447632, 0.00522138737142086, -0.03422687202692032, -0.028203684836626053, 0.02841627225279808, -0.016202116385102272, 0.041102971881628036, -0.0003995198931079358, -0.003027935279533267, 0.029074186459183693, 0.04234312102198601, -0.002959850709885359, -0.031754270195961, -0.023402944207191467, 0.062276847660541534, -0.09753015637397766, -0.054795678704977036, -0.03669996187090874, -0.01959236152470112, -8.976691997413169e-33, 0.04715917259454727, 0.06315536797046661, -0.099410779774189, -0.011807830072939396, 0.008001323789358139, 0.05925503373146057, 0.09688824415206909, 0.0207146555185318, 0.027090074494481087, 0.03147302567958832, 0.1631886512041092, 0.0388452373445034, -0.08602258563041687, 0.022013239562511444, -0.01116323471069336, 0.010883082635700703, -0.0703539028763771, -0.005696565378457308, -0.003047775011509657, 0.04690457135438919, -0.06794892996549606, 0.05305439978837967, 0.03652738407254219, 0.028400298207998276, 0.021384086459875107, 0.03706689178943634, -0.10260999202728271, -0.03504073992371559, -0.008900743909180164, -0.08045494556427002, 0.07132361084222794, 0.019018463790416718, -0.016683468595147133, -7.067489787004888e-05, -0.013483978807926178, -0.08059974759817123, 0.098780058324337, 0.05476360023021698, 0.041739121079444885, 0.007581011857837439, 0.014331044629216194, 0.010563023388385773, 0.021672382950782776, -0.033457111567258835, 0.023090146481990814, 0.12683315575122833, -0.014953444711863995, 0.0021247363183647394, 0.01699637621641159, -0.009280485101044178, -0.09208517521619797, 0.05076396092772484, -0.03162746876478195, 0.09967027604579926, -0.0019002389162778854, -0.027474896982312202, -0.032701436430215836, 0.007335229776799679, -0.0630381628870964, -0.07095012813806534, -0.013749141246080399, 0.017529239878058434, -0.08579685539007187, 0.026349255815148354, 0.0585324764251709, 0.0458260253071785, 0.04636998847126961, -0.022010520100593567, 0.007346958387643099, 0.010185481049120426, -0.11112312972545624, -0.03434362635016441, -0.02761790156364441, -0.09876922518014908, 0.02860174886882305, -0.016897333785891533, 0.0015877498080953956, -0.03323744237422943, -5.152654557605274e-05, 0.02529122121632099, -0.022762879729270935, -0.10802458226680756, -0.03980984166264534, -0.007878151722252369, 0.011873770505189896, -0.04358344152569771, -0.017921458929777145, -0.04458536580204964, -0.026038268581032753, 0.058334361761808395, -0.03884279355406761, -0.05312909558415413, -0.01111749466508627, 0.007500789128243923, 0.03437298908829689, -5.091049359862154e-08, 0.07312428951263428, -0.08147899806499481, -0.08597511798143387, -0.053801558911800385, 0.010310517624020576, -0.030875952914357185, -0.09979302436113358, 0.03231576457619667, -0.00329077267087996, 0.10651366412639618, 0.050763316452503204, -0.04234875366091728, -0.07805608212947845, -0.05838999152183533, -0.022184845060110092, 0.01588684506714344, 0.04961785674095154, -0.09664662182331085, 0.06048637628555298, -0.022949770092964172, 0.007080498151481152, -0.02982383593916893, 0.01190812699496746, 0.012143542990088463, -0.02249431610107422, -0.0071178306825459, 0.0005909358733333647, -0.05419967323541641, 0.007015065290033817, -0.03991674259305, 0.037510767579078674, 0.025414498522877693, 0.005984324961900711, 0.011864644475281239, 0.05938231572508812, -0.05651814118027687, 0.008046011440455914, 0.0013723415322601795, 0.030496474355459213, 0.024344516918063164, 0.014090904965996742, -0.07833597809076309, -0.040737926959991455, 0.026928376406431198, 0.0758262425661087, -0.02754136174917221, -0.01217273436486721, -0.046373628079891205, -0.017596222460269928, -0.14217208325862885, -0.04333038628101349, -0.015328296460211277, -0.054687466472387314, -0.018045788630843163, -0.03830047324299812, 0.02007339894771576, 0.059196166694164276, 0.027508340775966644, 0.05661464482545853, -0.007446489296853542, 0.017009450122714043, -0.08651569485664368, -0.05513705313205719, -0.05401145666837692]]] in add.
+2025-08-16 02:29:05,532 - app - ERROR - Error processing medical report: Expected embeddings to be a list of floats or ints, a list of lists, a numpy array, or a list of numpy arrays, got [[[-0.007216242607682943, -0.007835050113499165, -0.06742477416992188, -0.009654456749558449, -0.015702983364462852, 0.03478482365608215, -0.007681048940867186, 0.17558744549751282, 0.053043629974126816, 0.014772197231650352, -0.02578725479543209, -0.062036700546741486, -0.049893978983163834, 0.002561444416642189, -0.05719778314232826, -0.053479503840208054, 0.09001753479242325, 0.01264230441302061, -0.058652136474847794, -0.05679496005177498, 0.0313572883605957, 0.012904305011034012, 0.056981418281793594, 0.016337674111127853, -0.005431321915239096, 0.009149713441729546, -0.09731706976890564, -0.030591702088713646, -0.01838708110153675, 0.02114761620759964, -0.028074348345398903, 0.03215692937374115, 0.09806179255247116, -0.005820910446345806, 0.03170829638838768, -0.04654117301106453, -0.009372076950967312, -0.024769853800535202, -0.06824170798063278, 0.019678426906466484, 0.05436071380972862, -0.02502945251762867, 0.03192325681447983, 0.028700266033411026, -0.03176091983914375, 0.017948275431990623, -0.030448434874415398, 0.01119604054838419, -0.04702462628483772, 0.09562008827924728, 0.053465165197849274, 0.0766942948102951, -0.06415727734565735, 0.03207392618060112, -0.04736621305346489, -0.01228674128651619, -0.11495707184076309, -0.09532687813043594, 0.023085927590727806, 0.019320277497172356, -0.17074459791183472, 0.019307389855384827, -0.0040304758585989475, -0.007433887105435133, -0.013091427274048328, -0.01636258140206337, 0.06060872599482536, -0.014331058599054813, -0.0036620714236050844, 0.01628946326673031, 0.06437595933675766, 0.010529161430895329, 0.001093918806873262, 0.049946047365665436, -0.07385843992233276, 0.019314125180244446, 0.03218536823987961, 0.02395818382501602, 0.006452792789787054, -0.013623516075313091, 0.01097784098237753, 0.07591830939054489, 0.03884830325841904, 0.03145139291882515, -0.003913668915629387, 0.05142321437597275, -0.0546497143805027, 0.0862177163362503, -0.1072809100151062, 0.01133918296545744, 0.08458292484283447, 0.05768696963787079, -0.029194774106144905, 0.047457508742809296, 0.051181405782699585, 0.009499829262495041, -0.029551740735769272, 0.0985674113035202, 0.06284352391958237, -0.08279172331094742, -0.0236556027084589, -0.0033472354989498854, 0.02316976524889469, 0.007590208202600479, -0.03019111603498459, -0.025634529069066048, 0.0958130732178688, -0.00901599321514368, 0.021183736622333527, -0.039093270897865295, 0.07870705425739288, -0.024524828419089317, 0.03886615112423897, -0.02226976864039898, 0.05328139662742615, -0.05150273069739342, 0.030201559886336327, -0.01023214589804411, 0.027519313618540764, 0.03541604429483414, 0.02214707061648369, -0.054273899644613266, 0.04778618365526199, -0.023477232083678246, 0.06509397178888321, 0.018298080191016197, 0.050705235451459885, 9.448943914120146e-33, 0.0057397219352424145, -0.028467513620853424, 0.09774356335401535, 0.0299077145755291, -0.04563803970813751, 0.07697328925132751, 0.011143152602016926, 0.06756119430065155, -0.01715301163494587, 0.09016522765159607, -0.05000964552164078, 0.012543183751404285, 0.03169989958405495, 0.06418798118829727, -0.08931080996990204, 0.005178895778954029, 0.06342581659555435, -0.08546222746372223, -0.05165211111307144, 0.06772468984127045, 0.01650138385593891, -0.06017954275012016, 0.043252795934677124, -0.002697636839002371, -0.030287843197584152, 0.08018649369478226, -0.107779860496521, 0.04767592251300812, -0.004837040789425373, 0.010991479270160198, 0.0141971530392766, -0.003909036051481962, 0.0556771345436573, 0.002306129550561309, -0.10246690362691879, -0.009798153303563595, -0.10023876279592514, 0.032788001000881195, -0.033317796885967255, 0.010516033507883549, -0.047641728073358536, 0.0657523050904274, -0.10168331116437912, -0.0271920133382082, 0.005109547637403011, -0.11206860095262527, -0.023791106417775154, -0.056847088038921356, -0.032223280519247055, 0.07842189818620682, 0.0015260862419381738, -0.011699292808771133, 0.05802227556705475, 0.0015843176515772939, -0.008597003296017647, 0.0170197281986475, -0.037051886320114136, 0.06868922710418701, -0.014016660861670971, 0.09074766933917999, -0.013670507818460464, 0.07343652099370956, -0.03858630359172821, -0.007898779585957527, 0.09672002494335175, 0.09252698719501495, -0.037311892956495285, -0.02549763396382332, -0.05606040358543396, -0.042269520461559296, 0.11865846812725067, -0.0017380829667672515, -0.033643562346696854, -0.009708277881145477, -0.008613419719040394, 0.04577657952904701, 0.03526204824447632, 0.00522138737142086, -0.03422687202692032, -0.028203684836626053, 0.02841627225279808, -0.016202116385102272, 0.041102971881628036, -0.0003995198931079358, -0.003027935279533267, 0.029074186459183693, 0.04234312102198601, -0.002959850709885359, -0.031754270195961, -0.023402944207191467, 0.062276847660541534, -0.09753015637397766, -0.054795678704977036, -0.03669996187090874, -0.01959236152470112, -8.976691997413169e-33, 0.04715917259454727, 0.06315536797046661, -0.099410779774189, -0.011807830072939396, 0.008001323789358139, 0.05925503373146057, 0.09688824415206909, 0.0207146555185318, 0.027090074494481087, 0.03147302567958832, 0.1631886512041092, 0.0388452373445034, -0.08602258563041687, 0.022013239562511444, -0.01116323471069336, 0.010883082635700703, -0.0703539028763771, -0.005696565378457308, -0.003047775011509657, 0.04690457135438919, -0.06794892996549606, 0.05305439978837967, 0.03652738407254219, 0.028400298207998276, 0.021384086459875107, 0.03706689178943634, -0.10260999202728271, -0.03504073992371559, -0.008900743909180164, -0.08045494556427002, 0.07132361084222794, 0.019018463790416718, -0.016683468595147133, -7.067489787004888e-05, -0.013483978807926178, -0.08059974759817123, 0.098780058324337, 0.05476360023021698, 0.041739121079444885, 0.007581011857837439, 0.014331044629216194, 0.010563023388385773, 0.021672382950782776, -0.033457111567258835, 0.023090146481990814, 0.12683315575122833, -0.014953444711863995, 0.0021247363183647394, 0.01699637621641159, -0.009280485101044178, -0.09208517521619797, 0.05076396092772484, -0.03162746876478195, 0.09967027604579926, -0.0019002389162778854, -0.027474896982312202, -0.032701436430215836, 0.007335229776799679, -0.0630381628870964, -0.07095012813806534, -0.013749141246080399, 0.017529239878058434, -0.08579685539007187, 0.026349255815148354, 0.0585324764251709, 0.0458260253071785, 0.04636998847126961, -0.022010520100593567, 0.007346958387643099, 0.010185481049120426, -0.11112312972545624, -0.03434362635016441, -0.02761790156364441, -0.09876922518014908, 0.02860174886882305, -0.016897333785891533, 0.0015877498080953956, -0.03323744237422943, -5.152654557605274e-05, 0.02529122121632099, -0.022762879729270935, -0.10802458226680756, -0.03980984166264534, -0.007878151722252369, 0.011873770505189896, -0.04358344152569771, -0.017921458929777145, -0.04458536580204964, -0.026038268581032753, 0.058334361761808395, -0.03884279355406761, -0.05312909558415413, -0.01111749466508627, 0.007500789128243923, 0.03437298908829689, -5.091049359862154e-08, 0.07312428951263428, -0.08147899806499481, -0.08597511798143387, -0.053801558911800385, 0.010310517624020576, -0.030875952914357185, -0.09979302436113358, 0.03231576457619667, -0.00329077267087996, 0.10651366412639618, 0.050763316452503204, -0.04234875366091728, -0.07805608212947845, -0.05838999152183533, -0.022184845060110092, 0.01588684506714344, 0.04961785674095154, -0.09664662182331085, 0.06048637628555298, -0.022949770092964172, 0.007080498151481152, -0.02982383593916893, 0.01190812699496746, 0.012143542990088463, -0.02249431610107422, -0.0071178306825459, 0.0005909358733333647, -0.05419967323541641, 0.007015065290033817, -0.03991674259305, 0.037510767579078674, 0.025414498522877693, 0.005984324961900711, 0.011864644475281239, 0.05938231572508812, -0.05651814118027687, 0.008046011440455914, 0.0013723415322601795, 0.030496474355459213, 0.024344516918063164, 0.014090904965996742, -0.07833597809076309, -0.040737926959991455, 0.026928376406431198, 0.0758262425661087, -0.02754136174917221, -0.01217273436486721, -0.046373628079891205, -0.017596222460269928, -0.14217208325862885, -0.04333038628101349, -0.015328296460211277, -0.054687466472387314, -0.018045788630843163, -0.03830047324299812, 0.02007339894771576, 0.059196166694164276, 0.027508340775966644, 0.05661464482545853, -0.007446489296853542, 0.017009450122714043, -0.08651569485664368, -0.05513705313205719, -0.05401145666837692]]] in add.
+2025-08-16 02:29:05,533 - app - ERROR - Error processing upload: Expected embeddings to be a list of floats or ints, a list of lists, a numpy array, or a list of numpy arrays, got [[[-0.007216242607682943, -0.007835050113499165, -0.06742477416992188, -0.009654456749558449, -0.015702983364462852, 0.03478482365608215, -0.007681048940867186, 0.17558744549751282, 0.053043629974126816, 0.014772197231650352, -0.02578725479543209, -0.062036700546741486, -0.049893978983163834, 0.002561444416642189, -0.05719778314232826, -0.053479503840208054, 0.09001753479242325, 0.01264230441302061, -0.058652136474847794, -0.05679496005177498, 0.0313572883605957, 0.012904305011034012, 0.056981418281793594, 0.016337674111127853, -0.005431321915239096, 0.009149713441729546, -0.09731706976890564, -0.030591702088713646, -0.01838708110153675, 0.02114761620759964, -0.028074348345398903, 0.03215692937374115, 0.09806179255247116, -0.005820910446345806, 0.03170829638838768, -0.04654117301106453, -0.009372076950967312, -0.024769853800535202, -0.06824170798063278, 0.019678426906466484, 0.05436071380972862, -0.02502945251762867, 0.03192325681447983, 0.028700266033411026, -0.03176091983914375, 0.017948275431990623, -0.030448434874415398, 0.01119604054838419, -0.04702462628483772, 0.09562008827924728, 0.053465165197849274, 0.0766942948102951, -0.06415727734565735, 0.03207392618060112, -0.04736621305346489, -0.01228674128651619, -0.11495707184076309, -0.09532687813043594, 0.023085927590727806, 0.019320277497172356, -0.17074459791183472, 0.019307389855384827, -0.0040304758585989475, -0.007433887105435133, -0.013091427274048328, -0.01636258140206337, 0.06060872599482536, -0.014331058599054813, -0.0036620714236050844, 0.01628946326673031, 0.06437595933675766, 0.010529161430895329, 0.001093918806873262, 0.049946047365665436, -0.07385843992233276, 0.019314125180244446, 0.03218536823987961, 0.02395818382501602, 0.006452792789787054, -0.013623516075313091, 0.01097784098237753, 0.07591830939054489, 0.03884830325841904, 0.03145139291882515, -0.003913668915629387, 0.05142321437597275, -0.0546497143805027, 0.0862177163362503, -0.1072809100151062, 0.01133918296545744, 0.08458292484283447, 0.05768696963787079, -0.029194774106144905, 0.047457508742809296, 0.051181405782699585, 0.009499829262495041, -0.029551740735769272, 0.0985674113035202, 0.06284352391958237, -0.08279172331094742, -0.0236556027084589, -0.0033472354989498854, 0.02316976524889469, 0.007590208202600479, -0.03019111603498459, -0.025634529069066048, 0.0958130732178688, -0.00901599321514368, 0.021183736622333527, -0.039093270897865295, 0.07870705425739288, -0.024524828419089317, 0.03886615112423897, -0.02226976864039898, 0.05328139662742615, -0.05150273069739342, 0.030201559886336327, -0.01023214589804411, 0.027519313618540764, 0.03541604429483414, 0.02214707061648369, -0.054273899644613266, 0.04778618365526199, -0.023477232083678246, 0.06509397178888321, 0.018298080191016197, 0.050705235451459885, 9.448943914120146e-33, 0.0057397219352424145, -0.028467513620853424, 0.09774356335401535, 0.0299077145755291, -0.04563803970813751, 0.07697328925132751, 0.011143152602016926, 0.06756119430065155, -0.01715301163494587, 0.09016522765159607, -0.05000964552164078, 0.012543183751404285, 0.03169989958405495, 0.06418798118829727, -0.08931080996990204, 0.005178895778954029, 0.06342581659555435, -0.08546222746372223, -0.05165211111307144, 0.06772468984127045, 0.01650138385593891, -0.06017954275012016, 0.043252795934677124, -0.002697636839002371, -0.030287843197584152, 0.08018649369478226, -0.107779860496521, 0.04767592251300812, -0.004837040789425373, 0.010991479270160198, 0.0141971530392766, -0.003909036051481962, 0.0556771345436573, 0.002306129550561309, -0.10246690362691879, -0.009798153303563595, -0.10023876279592514, 0.032788001000881195, -0.033317796885967255, 0.010516033507883549, -0.047641728073358536, 0.0657523050904274, -0.10168331116437912, -0.0271920133382082, 0.005109547637403011, -0.11206860095262527, -0.023791106417775154, -0.056847088038921356, -0.032223280519247055, 0.07842189818620682, 0.0015260862419381738, -0.011699292808771133, 0.05802227556705475, 0.0015843176515772939, -0.008597003296017647, 0.0170197281986475, -0.037051886320114136, 0.06868922710418701, -0.014016660861670971, 0.09074766933917999, -0.013670507818460464, 0.07343652099370956, -0.03858630359172821, -0.007898779585957527, 0.09672002494335175, 0.09252698719501495, -0.037311892956495285, -0.02549763396382332, -0.05606040358543396, -0.042269520461559296, 0.11865846812725067, -0.0017380829667672515, -0.033643562346696854, -0.009708277881145477, -0.008613419719040394, 0.04577657952904701, 0.03526204824447632, 0.00522138737142086, -0.03422687202692032, -0.028203684836626053, 0.02841627225279808, -0.016202116385102272, 0.041102971881628036, -0.0003995198931079358, -0.003027935279533267, 0.029074186459183693, 0.04234312102198601, -0.002959850709885359, -0.031754270195961, -0.023402944207191467, 0.062276847660541534, -0.09753015637397766, -0.054795678704977036, -0.03669996187090874, -0.01959236152470112, -8.976691997413169e-33, 0.04715917259454727, 0.06315536797046661, -0.099410779774189, -0.011807830072939396, 0.008001323789358139, 0.05925503373146057, 0.09688824415206909, 0.0207146555185318, 0.027090074494481087, 0.03147302567958832, 0.1631886512041092, 0.0388452373445034, -0.08602258563041687, 0.022013239562511444, -0.01116323471069336, 0.010883082635700703, -0.0703539028763771, -0.005696565378457308, -0.003047775011509657, 0.04690457135438919, -0.06794892996549606, 0.05305439978837967, 0.03652738407254219, 0.028400298207998276, 0.021384086459875107, 0.03706689178943634, -0.10260999202728271, -0.03504073992371559, -0.008900743909180164, -0.08045494556427002, 0.07132361084222794, 0.019018463790416718, -0.016683468595147133, -7.067489787004888e-05, -0.013483978807926178, -0.08059974759817123, 0.098780058324337, 0.05476360023021698, 0.041739121079444885, 0.007581011857837439, 0.014331044629216194, 0.010563023388385773, 0.021672382950782776, -0.033457111567258835, 0.023090146481990814, 0.12683315575122833, -0.014953444711863995, 0.0021247363183647394, 0.01699637621641159, -0.009280485101044178, -0.09208517521619797, 0.05076396092772484, -0.03162746876478195, 0.09967027604579926, -0.0019002389162778854, -0.027474896982312202, -0.032701436430215836, 0.007335229776799679, -0.0630381628870964, -0.07095012813806534, -0.013749141246080399, 0.017529239878058434, -0.08579685539007187, 0.026349255815148354, 0.0585324764251709, 0.0458260253071785, 0.04636998847126961, -0.022010520100593567, 0.007346958387643099, 0.010185481049120426, -0.11112312972545624, -0.03434362635016441, -0.02761790156364441, -0.09876922518014908, 0.02860174886882305, -0.016897333785891533, 0.0015877498080953956, -0.03323744237422943, -5.152654557605274e-05, 0.02529122121632099, -0.022762879729270935, -0.10802458226680756, -0.03980984166264534, -0.007878151722252369, 0.011873770505189896, -0.04358344152569771, -0.017921458929777145, -0.04458536580204964, -0.026038268581032753, 0.058334361761808395, -0.03884279355406761, -0.05312909558415413, -0.01111749466508627, 0.007500789128243923, 0.03437298908829689, -5.091049359862154e-08, 0.07312428951263428, -0.08147899806499481, -0.08597511798143387, -0.053801558911800385, 0.010310517624020576, -0.030875952914357185, -0.09979302436113358, 0.03231576457619667, -0.00329077267087996, 0.10651366412639618, 0.050763316452503204, -0.04234875366091728, -0.07805608212947845, -0.05838999152183533, -0.022184845060110092, 0.01588684506714344, 0.04961785674095154, -0.09664662182331085, 0.06048637628555298, -0.022949770092964172, 0.007080498151481152, -0.02982383593916893, 0.01190812699496746, 0.012143542990088463, -0.02249431610107422, -0.0071178306825459, 0.0005909358733333647, -0.05419967323541641, 0.007015065290033817, -0.03991674259305, 0.037510767579078674, 0.025414498522877693, 0.005984324961900711, 0.011864644475281239, 0.05938231572508812, -0.05651814118027687, 0.008046011440455914, 0.0013723415322601795, 0.030496474355459213, 0.024344516918063164, 0.014090904965996742, -0.07833597809076309, -0.040737926959991455, 0.026928376406431198, 0.0758262425661087, -0.02754136174917221, -0.01217273436486721, -0.046373628079891205, -0.017596222460269928, -0.14217208325862885, -0.04333038628101349, -0.015328296460211277, -0.054687466472387314, -0.018045788630843163, -0.03830047324299812, 0.02007339894771576, 0.059196166694164276, 0.027508340775966644, 0.05661464482545853, -0.007446489296853542, 0.017009450122714043, -0.08651569485664368, -0.05513705313205719, -0.05401145666837692]]] in add.
+2025-08-16 02:29:05,534 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:29:05] "[35m[1mPOST /api/upload HTTP/1.1[0m" 500 -
+2025-08-16 02:31:56,252 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\app.py', reloading
+2025-08-16 02:31:57,563 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:31:57,708 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:31:57,954 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:31:58,902 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:32:06,634 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:32:07,302 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:32:07,920 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:32:07,995 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:32:08,000 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:32:08,000 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:32:08,000 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:32:08,000 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:32:08,000 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:32:08,000 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:32:08,018 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:32:08,019 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:32:12,909 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:32:12,909 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:32:13,051 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:32:13,051 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:32:13,053 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:32:13,053 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:32:13,054 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:32:13,054 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:32:13,062 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:32:13,068 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:32:48,045 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\app.py', reloading
+2025-08-16 02:32:49,472 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:32:49,747 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:32:50,070 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:32:50,881 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:32:51,171 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:32:51,180 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:32:52,185 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:32:57,867 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:32:58,460 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:32:58,756 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:32:59,023 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:32:59,092 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:32:59,096 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:32:59,096 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:32:59,096 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:32:59,096 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:32:59,096 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:32:59,097 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:32:59,111 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:32:59,111 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:32:59,340 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:32:59,921 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:33:00,000 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:33:00,004 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:33:00,004 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:33:00,005 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:33:00,005 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:33:00,005 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:33:00,005 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:33:00,024 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:33:00,024 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:33:04,089 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:33:04,090 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:33:04,194 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:33:04,194 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:33:04,194 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:33:04,194 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:33:04,196 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:33:04,196 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:33:04,203 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:33:04,210 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:33:05,449 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:33:05,450 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:33:05,567 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:33:05,568 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:33:05,568 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:33:05,568 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:33:05,569 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:33:05,570 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:33:05,596 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.45.87:5000
+2025-08-16 02:33:05,597 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 02:33:05,600 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:33:05,716 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:33:05,917 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:33:06,720 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:33:12,900 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:33:13,476 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:33:14,012 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:33:14,088 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:33:14,092 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:33:14,092 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:33:14,092 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:33:14,092 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:33:14,093 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:33:14,093 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:33:14,104 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:33:14,104 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:33:19,004 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:33:19,004 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:33:19,124 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:33:19,124 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:33:19,124 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:33:19,124 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:33:19,126 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:33:19,126 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:33:19,134 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:33:19,140 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:33:52,500 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:33:52] "GET /api/health HTTP/1.1" 200 -
+2025-08-16 02:36:55,497 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\app.py', reloading
+2025-08-16 02:36:55,544 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\app.py', reloading
+2025-08-16 02:36:56,651 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:36:56,761 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:36:56,835 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:36:56,950 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:36:57,003 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:36:57,165 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:36:58,166 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:36:58,390 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:37:05,717 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:37:05,915 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:37:06,689 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:37:06,834 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:37:07,433 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:37:07,529 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:37:07,533 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:37:07,533 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:37:07,533 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:37:07,533 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:37:07,534 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:37:07,534 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:37:07,553 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:37:07,553 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:37:07,564 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:37:07,629 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:37:07,633 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:37:07,633 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:37:07,633 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:37:07,633 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:37:07,634 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:37:07,634 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:37:07,644 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:37:07,644 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:37:12,421 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:37:12,421 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:37:12,508 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:37:12,508 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:37:12,574 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:37:12,574 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:37:12,574 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:37:12,574 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:37:12,576 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:37:12,577 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:37:12,585 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:37:12,592 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:37:12,648 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:37:12,648 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:37:12,649 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:37:12,649 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:37:12,651 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:37:12,651 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:37:12,660 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:37:12,667 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:37:13,274 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:37:13] "GET / HTTP/1.1" 200 -
+2025-08-16 02:37:26,977 - app - INFO - File saved: uploads\ea80059b-3666-4720-a8b3-11d875c3f4d2.pdf
+2025-08-16 02:37:27,340 - rag.vector_store - ERROR - Error adding document to vector store: Expected embeddings to be a list of floats or ints, a list of lists, a numpy array, or a list of numpy arrays, got [[[-0.007216242607682943, -0.007835050113499165, -0.06742477416992188, -0.009654456749558449, -0.015702983364462852, 0.03478482365608215, -0.007681048940867186, 0.17558744549751282, 0.053043629974126816, 0.014772197231650352, -0.02578725479543209, -0.062036700546741486, -0.049893978983163834, 0.002561444416642189, -0.05719778314232826, -0.053479503840208054, 0.09001753479242325, 0.01264230441302061, -0.058652136474847794, -0.05679496005177498, 0.0313572883605957, 0.012904305011034012, 0.056981418281793594, 0.016337674111127853, -0.005431321915239096, 0.009149713441729546, -0.09731706976890564, -0.030591702088713646, -0.01838708110153675, 0.02114761620759964, -0.028074348345398903, 0.03215692937374115, 0.09806179255247116, -0.005820910446345806, 0.03170829638838768, -0.04654117301106453, -0.009372076950967312, -0.024769853800535202, -0.06824170798063278, 0.019678426906466484, 0.05436071380972862, -0.02502945251762867, 0.03192325681447983, 0.028700266033411026, -0.03176091983914375, 0.017948275431990623, -0.030448434874415398, 0.01119604054838419, -0.04702462628483772, 0.09562008827924728, 0.053465165197849274, 0.0766942948102951, -0.06415727734565735, 0.03207392618060112, -0.04736621305346489, -0.01228674128651619, -0.11495707184076309, -0.09532687813043594, 0.023085927590727806, 0.019320277497172356, -0.17074459791183472, 0.019307389855384827, -0.0040304758585989475, -0.007433887105435133, -0.013091427274048328, -0.01636258140206337, 0.06060872599482536, -0.014331058599054813, -0.0036620714236050844, 0.01628946326673031, 0.06437595933675766, 0.010529161430895329, 0.001093918806873262, 0.049946047365665436, -0.07385843992233276, 0.019314125180244446, 0.03218536823987961, 0.02395818382501602, 0.006452792789787054, -0.013623516075313091, 0.01097784098237753, 0.07591830939054489, 0.03884830325841904, 0.03145139291882515, -0.003913668915629387, 0.05142321437597275, -0.0546497143805027, 0.0862177163362503, -0.1072809100151062, 0.01133918296545744, 0.08458292484283447, 0.05768696963787079, -0.029194774106144905, 0.047457508742809296, 0.051181405782699585, 0.009499829262495041, -0.029551740735769272, 0.0985674113035202, 0.06284352391958237, -0.08279172331094742, -0.0236556027084589, -0.0033472354989498854, 0.02316976524889469, 0.007590208202600479, -0.03019111603498459, -0.025634529069066048, 0.0958130732178688, -0.00901599321514368, 0.021183736622333527, -0.039093270897865295, 0.07870705425739288, -0.024524828419089317, 0.03886615112423897, -0.02226976864039898, 0.05328139662742615, -0.05150273069739342, 0.030201559886336327, -0.01023214589804411, 0.027519313618540764, 0.03541604429483414, 0.02214707061648369, -0.054273899644613266, 0.04778618365526199, -0.023477232083678246, 0.06509397178888321, 0.018298080191016197, 0.050705235451459885, 9.448943914120146e-33, 0.0057397219352424145, -0.028467513620853424, 0.09774356335401535, 0.0299077145755291, -0.04563803970813751, 0.07697328925132751, 0.011143152602016926, 0.06756119430065155, -0.01715301163494587, 0.09016522765159607, -0.05000964552164078, 0.012543183751404285, 0.03169989958405495, 0.06418798118829727, -0.08931080996990204, 0.005178895778954029, 0.06342581659555435, -0.08546222746372223, -0.05165211111307144, 0.06772468984127045, 0.01650138385593891, -0.06017954275012016, 0.043252795934677124, -0.002697636839002371, -0.030287843197584152, 0.08018649369478226, -0.107779860496521, 0.04767592251300812, -0.004837040789425373, 0.010991479270160198, 0.0141971530392766, -0.003909036051481962, 0.0556771345436573, 0.002306129550561309, -0.10246690362691879, -0.009798153303563595, -0.10023876279592514, 0.032788001000881195, -0.033317796885967255, 0.010516033507883549, -0.047641728073358536, 0.0657523050904274, -0.10168331116437912, -0.0271920133382082, 0.005109547637403011, -0.11206860095262527, -0.023791106417775154, -0.056847088038921356, -0.032223280519247055, 0.07842189818620682, 0.0015260862419381738, -0.011699292808771133, 0.05802227556705475, 0.0015843176515772939, -0.008597003296017647, 0.0170197281986475, -0.037051886320114136, 0.06868922710418701, -0.014016660861670971, 0.09074766933917999, -0.013670507818460464, 0.07343652099370956, -0.03858630359172821, -0.007898779585957527, 0.09672002494335175, 0.09252698719501495, -0.037311892956495285, -0.02549763396382332, -0.05606040358543396, -0.042269520461559296, 0.11865846812725067, -0.0017380829667672515, -0.033643562346696854, -0.009708277881145477, -0.008613419719040394, 0.04577657952904701, 0.03526204824447632, 0.00522138737142086, -0.03422687202692032, -0.028203684836626053, 0.02841627225279808, -0.016202116385102272, 0.041102971881628036, -0.0003995198931079358, -0.003027935279533267, 0.029074186459183693, 0.04234312102198601, -0.002959850709885359, -0.031754270195961, -0.023402944207191467, 0.062276847660541534, -0.09753015637397766, -0.054795678704977036, -0.03669996187090874, -0.01959236152470112, -8.976691997413169e-33, 0.04715917259454727, 0.06315536797046661, -0.099410779774189, -0.011807830072939396, 0.008001323789358139, 0.05925503373146057, 0.09688824415206909, 0.0207146555185318, 0.027090074494481087, 0.03147302567958832, 0.1631886512041092, 0.0388452373445034, -0.08602258563041687, 0.022013239562511444, -0.01116323471069336, 0.010883082635700703, -0.0703539028763771, -0.005696565378457308, -0.003047775011509657, 0.04690457135438919, -0.06794892996549606, 0.05305439978837967, 0.03652738407254219, 0.028400298207998276, 0.021384086459875107, 0.03706689178943634, -0.10260999202728271, -0.03504073992371559, -0.008900743909180164, -0.08045494556427002, 0.07132361084222794, 0.019018463790416718, -0.016683468595147133, -7.067489787004888e-05, -0.013483978807926178, -0.08059974759817123, 0.098780058324337, 0.05476360023021698, 0.041739121079444885, 0.007581011857837439, 0.014331044629216194, 0.010563023388385773, 0.021672382950782776, -0.033457111567258835, 0.023090146481990814, 0.12683315575122833, -0.014953444711863995, 0.0021247363183647394, 0.01699637621641159, -0.009280485101044178, -0.09208517521619797, 0.05076396092772484, -0.03162746876478195, 0.09967027604579926, -0.0019002389162778854, -0.027474896982312202, -0.032701436430215836, 0.007335229776799679, -0.0630381628870964, -0.07095012813806534, -0.013749141246080399, 0.017529239878058434, -0.08579685539007187, 0.026349255815148354, 0.0585324764251709, 0.0458260253071785, 0.04636998847126961, -0.022010520100593567, 0.007346958387643099, 0.010185481049120426, -0.11112312972545624, -0.03434362635016441, -0.02761790156364441, -0.09876922518014908, 0.02860174886882305, -0.016897333785891533, 0.0015877498080953956, -0.03323744237422943, -5.152654557605274e-05, 0.02529122121632099, -0.022762879729270935, -0.10802458226680756, -0.03980984166264534, -0.007878151722252369, 0.011873770505189896, -0.04358344152569771, -0.017921458929777145, -0.04458536580204964, -0.026038268581032753, 0.058334361761808395, -0.03884279355406761, -0.05312909558415413, -0.01111749466508627, 0.007500789128243923, 0.03437298908829689, -5.091049359862154e-08, 0.07312428951263428, -0.08147899806499481, -0.08597511798143387, -0.053801558911800385, 0.010310517624020576, -0.030875952914357185, -0.09979302436113358, 0.03231576457619667, -0.00329077267087996, 0.10651366412639618, 0.050763316452503204, -0.04234875366091728, -0.07805608212947845, -0.05838999152183533, -0.022184845060110092, 0.01588684506714344, 0.04961785674095154, -0.09664662182331085, 0.06048637628555298, -0.022949770092964172, 0.007080498151481152, -0.02982383593916893, 0.01190812699496746, 0.012143542990088463, -0.02249431610107422, -0.0071178306825459, 0.0005909358733333647, -0.05419967323541641, 0.007015065290033817, -0.03991674259305, 0.037510767579078674, 0.025414498522877693, 0.005984324961900711, 0.011864644475281239, 0.05938231572508812, -0.05651814118027687, 0.008046011440455914, 0.0013723415322601795, 0.030496474355459213, 0.024344516918063164, 0.014090904965996742, -0.07833597809076309, -0.040737926959991455, 0.026928376406431198, 0.0758262425661087, -0.02754136174917221, -0.01217273436486721, -0.046373628079891205, -0.017596222460269928, -0.14217208325862885, -0.04333038628101349, -0.015328296460211277, -0.054687466472387314, -0.018045788630843163, -0.03830047324299812, 0.02007339894771576, 0.059196166694164276, 0.027508340775966644, 0.05661464482545853, -0.007446489296853542, 0.017009450122714043, -0.08651569485664368, -0.05513705313205719, -0.05401145666837692]]] in add.
+2025-08-16 02:37:27,340 - app - ERROR - Error processing medical report: Expected embeddings to be a list of floats or ints, a list of lists, a numpy array, or a list of numpy arrays, got [[[-0.007216242607682943, -0.007835050113499165, -0.06742477416992188, -0.009654456749558449, -0.015702983364462852, 0.03478482365608215, -0.007681048940867186, 0.17558744549751282, 0.053043629974126816, 0.014772197231650352, -0.02578725479543209, -0.062036700546741486, -0.049893978983163834, 0.002561444416642189, -0.05719778314232826, -0.053479503840208054, 0.09001753479242325, 0.01264230441302061, -0.058652136474847794, -0.05679496005177498, 0.0313572883605957, 0.012904305011034012, 0.056981418281793594, 0.016337674111127853, -0.005431321915239096, 0.009149713441729546, -0.09731706976890564, -0.030591702088713646, -0.01838708110153675, 0.02114761620759964, -0.028074348345398903, 0.03215692937374115, 0.09806179255247116, -0.005820910446345806, 0.03170829638838768, -0.04654117301106453, -0.009372076950967312, -0.024769853800535202, -0.06824170798063278, 0.019678426906466484, 0.05436071380972862, -0.02502945251762867, 0.03192325681447983, 0.028700266033411026, -0.03176091983914375, 0.017948275431990623, -0.030448434874415398, 0.01119604054838419, -0.04702462628483772, 0.09562008827924728, 0.053465165197849274, 0.0766942948102951, -0.06415727734565735, 0.03207392618060112, -0.04736621305346489, -0.01228674128651619, -0.11495707184076309, -0.09532687813043594, 0.023085927590727806, 0.019320277497172356, -0.17074459791183472, 0.019307389855384827, -0.0040304758585989475, -0.007433887105435133, -0.013091427274048328, -0.01636258140206337, 0.06060872599482536, -0.014331058599054813, -0.0036620714236050844, 0.01628946326673031, 0.06437595933675766, 0.010529161430895329, 0.001093918806873262, 0.049946047365665436, -0.07385843992233276, 0.019314125180244446, 0.03218536823987961, 0.02395818382501602, 0.006452792789787054, -0.013623516075313091, 0.01097784098237753, 0.07591830939054489, 0.03884830325841904, 0.03145139291882515, -0.003913668915629387, 0.05142321437597275, -0.0546497143805027, 0.0862177163362503, -0.1072809100151062, 0.01133918296545744, 0.08458292484283447, 0.05768696963787079, -0.029194774106144905, 0.047457508742809296, 0.051181405782699585, 0.009499829262495041, -0.029551740735769272, 0.0985674113035202, 0.06284352391958237, -0.08279172331094742, -0.0236556027084589, -0.0033472354989498854, 0.02316976524889469, 0.007590208202600479, -0.03019111603498459, -0.025634529069066048, 0.0958130732178688, -0.00901599321514368, 0.021183736622333527, -0.039093270897865295, 0.07870705425739288, -0.024524828419089317, 0.03886615112423897, -0.02226976864039898, 0.05328139662742615, -0.05150273069739342, 0.030201559886336327, -0.01023214589804411, 0.027519313618540764, 0.03541604429483414, 0.02214707061648369, -0.054273899644613266, 0.04778618365526199, -0.023477232083678246, 0.06509397178888321, 0.018298080191016197, 0.050705235451459885, 9.448943914120146e-33, 0.0057397219352424145, -0.028467513620853424, 0.09774356335401535, 0.0299077145755291, -0.04563803970813751, 0.07697328925132751, 0.011143152602016926, 0.06756119430065155, -0.01715301163494587, 0.09016522765159607, -0.05000964552164078, 0.012543183751404285, 0.03169989958405495, 0.06418798118829727, -0.08931080996990204, 0.005178895778954029, 0.06342581659555435, -0.08546222746372223, -0.05165211111307144, 0.06772468984127045, 0.01650138385593891, -0.06017954275012016, 0.043252795934677124, -0.002697636839002371, -0.030287843197584152, 0.08018649369478226, -0.107779860496521, 0.04767592251300812, -0.004837040789425373, 0.010991479270160198, 0.0141971530392766, -0.003909036051481962, 0.0556771345436573, 0.002306129550561309, -0.10246690362691879, -0.009798153303563595, -0.10023876279592514, 0.032788001000881195, -0.033317796885967255, 0.010516033507883549, -0.047641728073358536, 0.0657523050904274, -0.10168331116437912, -0.0271920133382082, 0.005109547637403011, -0.11206860095262527, -0.023791106417775154, -0.056847088038921356, -0.032223280519247055, 0.07842189818620682, 0.0015260862419381738, -0.011699292808771133, 0.05802227556705475, 0.0015843176515772939, -0.008597003296017647, 0.0170197281986475, -0.037051886320114136, 0.06868922710418701, -0.014016660861670971, 0.09074766933917999, -0.013670507818460464, 0.07343652099370956, -0.03858630359172821, -0.007898779585957527, 0.09672002494335175, 0.09252698719501495, -0.037311892956495285, -0.02549763396382332, -0.05606040358543396, -0.042269520461559296, 0.11865846812725067, -0.0017380829667672515, -0.033643562346696854, -0.009708277881145477, -0.008613419719040394, 0.04577657952904701, 0.03526204824447632, 0.00522138737142086, -0.03422687202692032, -0.028203684836626053, 0.02841627225279808, -0.016202116385102272, 0.041102971881628036, -0.0003995198931079358, -0.003027935279533267, 0.029074186459183693, 0.04234312102198601, -0.002959850709885359, -0.031754270195961, -0.023402944207191467, 0.062276847660541534, -0.09753015637397766, -0.054795678704977036, -0.03669996187090874, -0.01959236152470112, -8.976691997413169e-33, 0.04715917259454727, 0.06315536797046661, -0.099410779774189, -0.011807830072939396, 0.008001323789358139, 0.05925503373146057, 0.09688824415206909, 0.0207146555185318, 0.027090074494481087, 0.03147302567958832, 0.1631886512041092, 0.0388452373445034, -0.08602258563041687, 0.022013239562511444, -0.01116323471069336, 0.010883082635700703, -0.0703539028763771, -0.005696565378457308, -0.003047775011509657, 0.04690457135438919, -0.06794892996549606, 0.05305439978837967, 0.03652738407254219, 0.028400298207998276, 0.021384086459875107, 0.03706689178943634, -0.10260999202728271, -0.03504073992371559, -0.008900743909180164, -0.08045494556427002, 0.07132361084222794, 0.019018463790416718, -0.016683468595147133, -7.067489787004888e-05, -0.013483978807926178, -0.08059974759817123, 0.098780058324337, 0.05476360023021698, 0.041739121079444885, 0.007581011857837439, 0.014331044629216194, 0.010563023388385773, 0.021672382950782776, -0.033457111567258835, 0.023090146481990814, 0.12683315575122833, -0.014953444711863995, 0.0021247363183647394, 0.01699637621641159, -0.009280485101044178, -0.09208517521619797, 0.05076396092772484, -0.03162746876478195, 0.09967027604579926, -0.0019002389162778854, -0.027474896982312202, -0.032701436430215836, 0.007335229776799679, -0.0630381628870964, -0.07095012813806534, -0.013749141246080399, 0.017529239878058434, -0.08579685539007187, 0.026349255815148354, 0.0585324764251709, 0.0458260253071785, 0.04636998847126961, -0.022010520100593567, 0.007346958387643099, 0.010185481049120426, -0.11112312972545624, -0.03434362635016441, -0.02761790156364441, -0.09876922518014908, 0.02860174886882305, -0.016897333785891533, 0.0015877498080953956, -0.03323744237422943, -5.152654557605274e-05, 0.02529122121632099, -0.022762879729270935, -0.10802458226680756, -0.03980984166264534, -0.007878151722252369, 0.011873770505189896, -0.04358344152569771, -0.017921458929777145, -0.04458536580204964, -0.026038268581032753, 0.058334361761808395, -0.03884279355406761, -0.05312909558415413, -0.01111749466508627, 0.007500789128243923, 0.03437298908829689, -5.091049359862154e-08, 0.07312428951263428, -0.08147899806499481, -0.08597511798143387, -0.053801558911800385, 0.010310517624020576, -0.030875952914357185, -0.09979302436113358, 0.03231576457619667, -0.00329077267087996, 0.10651366412639618, 0.050763316452503204, -0.04234875366091728, -0.07805608212947845, -0.05838999152183533, -0.022184845060110092, 0.01588684506714344, 0.04961785674095154, -0.09664662182331085, 0.06048637628555298, -0.022949770092964172, 0.007080498151481152, -0.02982383593916893, 0.01190812699496746, 0.012143542990088463, -0.02249431610107422, -0.0071178306825459, 0.0005909358733333647, -0.05419967323541641, 0.007015065290033817, -0.03991674259305, 0.037510767579078674, 0.025414498522877693, 0.005984324961900711, 0.011864644475281239, 0.05938231572508812, -0.05651814118027687, 0.008046011440455914, 0.0013723415322601795, 0.030496474355459213, 0.024344516918063164, 0.014090904965996742, -0.07833597809076309, -0.040737926959991455, 0.026928376406431198, 0.0758262425661087, -0.02754136174917221, -0.01217273436486721, -0.046373628079891205, -0.017596222460269928, -0.14217208325862885, -0.04333038628101349, -0.015328296460211277, -0.054687466472387314, -0.018045788630843163, -0.03830047324299812, 0.02007339894771576, 0.059196166694164276, 0.027508340775966644, 0.05661464482545853, -0.007446489296853542, 0.017009450122714043, -0.08651569485664368, -0.05513705313205719, -0.05401145666837692]]] in add.
+2025-08-16 02:37:27,341 - app - ERROR - Error processing upload: Expected embeddings to be a list of floats or ints, a list of lists, a numpy array, or a list of numpy arrays, got [[[-0.007216242607682943, -0.007835050113499165, -0.06742477416992188, -0.009654456749558449, -0.015702983364462852, 0.03478482365608215, -0.007681048940867186, 0.17558744549751282, 0.053043629974126816, 0.014772197231650352, -0.02578725479543209, -0.062036700546741486, -0.049893978983163834, 0.002561444416642189, -0.05719778314232826, -0.053479503840208054, 0.09001753479242325, 0.01264230441302061, -0.058652136474847794, -0.05679496005177498, 0.0313572883605957, 0.012904305011034012, 0.056981418281793594, 0.016337674111127853, -0.005431321915239096, 0.009149713441729546, -0.09731706976890564, -0.030591702088713646, -0.01838708110153675, 0.02114761620759964, -0.028074348345398903, 0.03215692937374115, 0.09806179255247116, -0.005820910446345806, 0.03170829638838768, -0.04654117301106453, -0.009372076950967312, -0.024769853800535202, -0.06824170798063278, 0.019678426906466484, 0.05436071380972862, -0.02502945251762867, 0.03192325681447983, 0.028700266033411026, -0.03176091983914375, 0.017948275431990623, -0.030448434874415398, 0.01119604054838419, -0.04702462628483772, 0.09562008827924728, 0.053465165197849274, 0.0766942948102951, -0.06415727734565735, 0.03207392618060112, -0.04736621305346489, -0.01228674128651619, -0.11495707184076309, -0.09532687813043594, 0.023085927590727806, 0.019320277497172356, -0.17074459791183472, 0.019307389855384827, -0.0040304758585989475, -0.007433887105435133, -0.013091427274048328, -0.01636258140206337, 0.06060872599482536, -0.014331058599054813, -0.0036620714236050844, 0.01628946326673031, 0.06437595933675766, 0.010529161430895329, 0.001093918806873262, 0.049946047365665436, -0.07385843992233276, 0.019314125180244446, 0.03218536823987961, 0.02395818382501602, 0.006452792789787054, -0.013623516075313091, 0.01097784098237753, 0.07591830939054489, 0.03884830325841904, 0.03145139291882515, -0.003913668915629387, 0.05142321437597275, -0.0546497143805027, 0.0862177163362503, -0.1072809100151062, 0.01133918296545744, 0.08458292484283447, 0.05768696963787079, -0.029194774106144905, 0.047457508742809296, 0.051181405782699585, 0.009499829262495041, -0.029551740735769272, 0.0985674113035202, 0.06284352391958237, -0.08279172331094742, -0.0236556027084589, -0.0033472354989498854, 0.02316976524889469, 0.007590208202600479, -0.03019111603498459, -0.025634529069066048, 0.0958130732178688, -0.00901599321514368, 0.021183736622333527, -0.039093270897865295, 0.07870705425739288, -0.024524828419089317, 0.03886615112423897, -0.02226976864039898, 0.05328139662742615, -0.05150273069739342, 0.030201559886336327, -0.01023214589804411, 0.027519313618540764, 0.03541604429483414, 0.02214707061648369, -0.054273899644613266, 0.04778618365526199, -0.023477232083678246, 0.06509397178888321, 0.018298080191016197, 0.050705235451459885, 9.448943914120146e-33, 0.0057397219352424145, -0.028467513620853424, 0.09774356335401535, 0.0299077145755291, -0.04563803970813751, 0.07697328925132751, 0.011143152602016926, 0.06756119430065155, -0.01715301163494587, 0.09016522765159607, -0.05000964552164078, 0.012543183751404285, 0.03169989958405495, 0.06418798118829727, -0.08931080996990204, 0.005178895778954029, 0.06342581659555435, -0.08546222746372223, -0.05165211111307144, 0.06772468984127045, 0.01650138385593891, -0.06017954275012016, 0.043252795934677124, -0.002697636839002371, -0.030287843197584152, 0.08018649369478226, -0.107779860496521, 0.04767592251300812, -0.004837040789425373, 0.010991479270160198, 0.0141971530392766, -0.003909036051481962, 0.0556771345436573, 0.002306129550561309, -0.10246690362691879, -0.009798153303563595, -0.10023876279592514, 0.032788001000881195, -0.033317796885967255, 0.010516033507883549, -0.047641728073358536, 0.0657523050904274, -0.10168331116437912, -0.0271920133382082, 0.005109547637403011, -0.11206860095262527, -0.023791106417775154, -0.056847088038921356, -0.032223280519247055, 0.07842189818620682, 0.0015260862419381738, -0.011699292808771133, 0.05802227556705475, 0.0015843176515772939, -0.008597003296017647, 0.0170197281986475, -0.037051886320114136, 0.06868922710418701, -0.014016660861670971, 0.09074766933917999, -0.013670507818460464, 0.07343652099370956, -0.03858630359172821, -0.007898779585957527, 0.09672002494335175, 0.09252698719501495, -0.037311892956495285, -0.02549763396382332, -0.05606040358543396, -0.042269520461559296, 0.11865846812725067, -0.0017380829667672515, -0.033643562346696854, -0.009708277881145477, -0.008613419719040394, 0.04577657952904701, 0.03526204824447632, 0.00522138737142086, -0.03422687202692032, -0.028203684836626053, 0.02841627225279808, -0.016202116385102272, 0.041102971881628036, -0.0003995198931079358, -0.003027935279533267, 0.029074186459183693, 0.04234312102198601, -0.002959850709885359, -0.031754270195961, -0.023402944207191467, 0.062276847660541534, -0.09753015637397766, -0.054795678704977036, -0.03669996187090874, -0.01959236152470112, -8.976691997413169e-33, 0.04715917259454727, 0.06315536797046661, -0.099410779774189, -0.011807830072939396, 0.008001323789358139, 0.05925503373146057, 0.09688824415206909, 0.0207146555185318, 0.027090074494481087, 0.03147302567958832, 0.1631886512041092, 0.0388452373445034, -0.08602258563041687, 0.022013239562511444, -0.01116323471069336, 0.010883082635700703, -0.0703539028763771, -0.005696565378457308, -0.003047775011509657, 0.04690457135438919, -0.06794892996549606, 0.05305439978837967, 0.03652738407254219, 0.028400298207998276, 0.021384086459875107, 0.03706689178943634, -0.10260999202728271, -0.03504073992371559, -0.008900743909180164, -0.08045494556427002, 0.07132361084222794, 0.019018463790416718, -0.016683468595147133, -7.067489787004888e-05, -0.013483978807926178, -0.08059974759817123, 0.098780058324337, 0.05476360023021698, 0.041739121079444885, 0.007581011857837439, 0.014331044629216194, 0.010563023388385773, 0.021672382950782776, -0.033457111567258835, 0.023090146481990814, 0.12683315575122833, -0.014953444711863995, 0.0021247363183647394, 0.01699637621641159, -0.009280485101044178, -0.09208517521619797, 0.05076396092772484, -0.03162746876478195, 0.09967027604579926, -0.0019002389162778854, -0.027474896982312202, -0.032701436430215836, 0.007335229776799679, -0.0630381628870964, -0.07095012813806534, -0.013749141246080399, 0.017529239878058434, -0.08579685539007187, 0.026349255815148354, 0.0585324764251709, 0.0458260253071785, 0.04636998847126961, -0.022010520100593567, 0.007346958387643099, 0.010185481049120426, -0.11112312972545624, -0.03434362635016441, -0.02761790156364441, -0.09876922518014908, 0.02860174886882305, -0.016897333785891533, 0.0015877498080953956, -0.03323744237422943, -5.152654557605274e-05, 0.02529122121632099, -0.022762879729270935, -0.10802458226680756, -0.03980984166264534, -0.007878151722252369, 0.011873770505189896, -0.04358344152569771, -0.017921458929777145, -0.04458536580204964, -0.026038268581032753, 0.058334361761808395, -0.03884279355406761, -0.05312909558415413, -0.01111749466508627, 0.007500789128243923, 0.03437298908829689, -5.091049359862154e-08, 0.07312428951263428, -0.08147899806499481, -0.08597511798143387, -0.053801558911800385, 0.010310517624020576, -0.030875952914357185, -0.09979302436113358, 0.03231576457619667, -0.00329077267087996, 0.10651366412639618, 0.050763316452503204, -0.04234875366091728, -0.07805608212947845, -0.05838999152183533, -0.022184845060110092, 0.01588684506714344, 0.04961785674095154, -0.09664662182331085, 0.06048637628555298, -0.022949770092964172, 0.007080498151481152, -0.02982383593916893, 0.01190812699496746, 0.012143542990088463, -0.02249431610107422, -0.0071178306825459, 0.0005909358733333647, -0.05419967323541641, 0.007015065290033817, -0.03991674259305, 0.037510767579078674, 0.025414498522877693, 0.005984324961900711, 0.011864644475281239, 0.05938231572508812, -0.05651814118027687, 0.008046011440455914, 0.0013723415322601795, 0.030496474355459213, 0.024344516918063164, 0.014090904965996742, -0.07833597809076309, -0.040737926959991455, 0.026928376406431198, 0.0758262425661087, -0.02754136174917221, -0.01217273436486721, -0.046373628079891205, -0.017596222460269928, -0.14217208325862885, -0.04333038628101349, -0.015328296460211277, -0.054687466472387314, -0.018045788630843163, -0.03830047324299812, 0.02007339894771576, 0.059196166694164276, 0.027508340775966644, 0.05661464482545853, -0.007446489296853542, 0.017009450122714043, -0.08651569485664368, -0.05513705313205719, -0.05401145666837692]]] in add.
+2025-08-16 02:37:27,343 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:37:27] "[35m[1mPOST /api/upload HTTP/1.1[0m" 500 -
+2025-08-16 02:38:10,490 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\rag\\embeddings.py', reloading
+2025-08-16 02:38:11,927 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:38:12,058 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:38:12,312 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:38:13,354 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:38:21,114 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:38:21,782 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:38:22,477 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:38:22,567 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:38:22,572 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:38:22,572 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:38:22,573 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:38:22,573 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:38:22,573 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:38:22,573 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:38:22,590 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:38:22,591 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:38:27,292 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:38:27,292 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:38:27,406 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:38:27,406 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:38:27,408 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:38:27,408 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:38:27,409 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:38:27,410 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:38:27,417 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:38:27,423 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:38:33,021 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\app.py', reloading
+2025-08-16 02:38:34,733 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:38:34,875 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:38:35,133 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:38:36,158 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:38:43,519 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:38:44,136 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:38:44,700 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:38:44,765 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:38:44,768 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:38:44,768 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:38:44,768 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:38:44,769 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:38:44,769 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:38:44,769 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:38:44,785 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:38:44,785 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:38:49,534 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:38:49,535 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:38:49,653 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:38:49,653 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:38:49,654 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:38:49,654 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:38:49,655 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:38:49,655 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:38:49,667 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:38:49,675 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:38:57,558 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:38:57] "GET /api/health HTTP/1.1" 200 -
+2025-08-16 02:39:27,351 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\test_embeddings.py', reloading
+2025-08-16 02:39:28,827 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:39:28,926 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:39:29,147 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:39:29,937 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:39:37,035 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:39:37,629 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:39:38,184 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:39:38,251 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:39:38,254 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:39:38,254 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:39:38,255 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:39:38,255 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:39:38,255 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:39:38,255 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:39:38,268 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:39:38,268 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:39:43,376 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:39:43,376 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:39:43,495 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:39:43,495 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:39:43,497 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:39:43,497 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:39:43,498 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:39:43,499 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:39:43,508 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:39:43,515 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:40:21,419 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\app.py', reloading
+2025-08-16 02:40:22,563 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:40:22,672 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:40:22,877 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:40:23,679 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:40:29,764 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:40:30,291 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:40:30,816 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:40:30,877 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:40:30,880 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:40:30,880 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:40:30,880 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:40:30,880 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:40:30,880 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:40:30,880 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:40:30,894 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:40:30,894 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:40:38,525 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:40:38,525 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:40:38,633 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:40:38,633 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:40:38,633 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:40:38,633 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:40:38,635 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:40:38,635 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:40:38,642 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:40:38,647 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:40:51,271 - app - INFO - File saved: uploads\fa853870-f6c2-4c9e-b849-8013454c2b68.pdf
+2025-08-16 02:40:51,401 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 02:40:51,559 - rag.vector_store - INFO - Document added to vector store with ID: 69925c2b-3ff2-494c-a41a-97ac91b8811c
+2025-08-16 02:40:51,674 - rag.vector_store - INFO - Found 1 similar documents
+2025-08-16 02:40:51,674 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:40:51,675 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:40:51,675 - rag.retriever - INFO - Retrieved 1 relevant documents
+2025-08-16 02:40:52,703 - ai.gemini_api - ERROR - Error analyzing medical report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-08-16 02:40:52,705 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:40:52] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 02:41:29,457 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:41:29] "GET / HTTP/1.1" 200 -
+2025-08-16 02:41:41,076 - app - INFO - File saved: uploads\f4307ab9-03c8-4268-9339-6e18c49c67a1.pdf
+2025-08-16 02:41:41,144 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 02:41:41,155 - rag.vector_store - INFO - Document added to vector store with ID: e4b5b5e2-fbe8-42db-a902-ae1bf108dee2
+2025-08-16 02:41:41,196 - rag.vector_store - INFO - Found 2 similar documents
+2025-08-16 02:41:41,196 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:41:41,196 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:41:41,197 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:41:41,197 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:41:41,197 - rag.retriever - INFO - Retrieved 2 relevant documents
+2025-08-16 02:41:41,899 - ai.gemini_api - ERROR - Error analyzing medical report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-08-16 02:41:41,900 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:41:41] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 02:41:57,388 - rag.vector_store - INFO - Found 2 similar documents
+2025-08-16 02:41:57,388 - rag.retriever - INFO - Retrieved 0 relevant documents
+2025-08-16 02:41:57,823 - ai.gemini_api - ERROR - Error simplifying medical terms: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-08-16 02:41:57,824 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:41:57] "POST /api/explain HTTP/1.1" 200 -
+2025-08-16 02:43:17,912 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:43:18,109 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:43:18,886 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:43:24,833 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:43:25,354 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:43:25,851 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:43:25,916 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:43:25,919 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:43:25,919 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:43:25,919 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:43:25,920 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:43:25,920 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:43:25,920 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:43:25,933 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:43:25,933 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:43:31,106 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:43:31,106 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:43:31,217 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:43:31,218 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:43:31,218 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:43:31,218 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:43:31,219 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:43:31,219 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:43:31,236 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.45.87:5000
+2025-08-16 02:43:31,236 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 02:43:31,238 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:43:31,337 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:43:31,529 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:43:32,305 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:43:38,615 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:43:39,184 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:43:39,745 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:43:39,811 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:43:39,814 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:43:39,814 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:43:39,815 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:43:39,815 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:43:39,815 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:43:39,816 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:43:39,828 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:43:39,829 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:43:44,873 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:43:44,873 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:43:44,990 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:43:44,991 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:43:44,991 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:43:44,991 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:43:44,992 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:43:44,993 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:43:45,001 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:43:45,008 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:43:45,511 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:43:45] "GET / HTTP/1.1" 200 -
+2025-08-16 02:43:51,550 - app - INFO - File saved: uploads\66c4bba2-92d8-4360-af36-b57954fe2515.pdf
+2025-08-16 02:43:51,640 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 02:43:51,718 - rag.vector_store - INFO - Document added to vector store with ID: 5ade8985-5ebc-42b2-8282-7a528ed9ebcc
+2025-08-16 02:43:51,796 - rag.vector_store - INFO - Found 3 similar documents
+2025-08-16 02:43:51,796 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:43:51,796 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:43:51,798 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:43:51,798 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:43:51,798 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:43:51,798 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:43:51,798 - rag.retriever - INFO - Retrieved 3 relevant documents
+2025-08-16 02:43:52,773 - ai.gemini_api - ERROR - Error analyzing medical report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-08-16 02:43:52,774 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:43:52] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 02:45:18,003 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\ai\\gemini_api.py', reloading
+2025-08-16 02:45:21,242 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:45:21,361 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:45:21,560 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:45:22,459 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:45:28,942 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:45:29,478 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:45:30,022 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:45:30,085 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:45:30,088 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:45:30,088 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:45:30,089 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:45:30,089 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:45:30,089 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:45:30,089 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:45:30,105 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:45:30,105 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:45:34,758 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:45:34,758 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:45:34,869 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:45:34,869 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:45:34,870 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:45:34,870 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:45:34,871 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:45:34,871 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:45:34,879 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:45:34,885 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:45:46,000 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:45:46] "GET / HTTP/1.1" 200 -
+2025-08-16 02:45:53,462 - app - INFO - File saved: uploads\dc3e8a5d-ae49-4ee3-96d6-1261b0e4f2a4.pdf
+2025-08-16 02:45:53,559 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 02:45:53,633 - rag.vector_store - INFO - Document added to vector store with ID: aa31d6cc-4098-4585-8ac4-89e0210f8208
+2025-08-16 02:45:53,692 - rag.vector_store - INFO - Found 4 similar documents
+2025-08-16 02:45:53,692 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:45:53,692 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:45:53,692 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:45:53,693 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:45:53,693 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:45:53,693 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:45:53,693 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:45:53,693 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:45:53,694 - rag.retriever - INFO - Retrieved 4 relevant documents
+2025-08-16 02:46:00,811 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:46:00] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 02:47:14,546 - app - INFO - File saved: uploads\7e6b30e9-e162-4d31-b707-b9660368a93c.pdf
+2025-08-16 02:47:14,650 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 02:47:14,665 - rag.vector_store - INFO - Document added to vector store with ID: caabacd8-90c1-4000-9a49-3d3b4a4c1f2c
+2025-08-16 02:47:14,731 - rag.vector_store - INFO - Found 5 similar documents
+2025-08-16 02:47:14,731 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:47:14,731 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:47:14,731 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:47:14,732 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:47:14,732 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:47:14,732 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:47:14,732 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:47:14,732 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:47:14,732 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:47:14,732 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:47:14,733 - rag.retriever - INFO - Retrieved 5 relevant documents
+2025-08-16 02:47:22,591 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:47:22] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 02:59:15,076 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:59:15,320 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:59:16,311 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:59:24,192 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:59:24,946 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:59:25,609 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:59:25,778 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:59:25,781 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:59:25,781 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:59:25,782 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:59:25,782 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:59:25,782 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:59:25,782 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:59:25,803 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:59:25,803 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:59:31,057 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:59:31,058 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:59:31,255 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:59:31,256 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:59:31,256 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:59:31,256 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:59:31,258 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:59:31,258 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:59:31,280 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.45.87:5000
+2025-08-16 02:59:31,280 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 02:59:31,283 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 02:59:31,381 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 02:59:31,577 - __main__ - INFO - ✓ flask - OK
+2025-08-16 02:59:32,385 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 02:59:38,961 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 02:59:39,590 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 02:59:40,183 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 02:59:40,264 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 02:59:40,267 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 02:59:40,268 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 02:59:40,268 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 02:59:40,268 - __main__ - INFO - Directory exists: uploads
+2025-08-16 02:59:40,268 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 02:59:40,268 - __main__ - INFO - Directory exists: logs
+2025-08-16 02:59:40,281 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 02:59:40,281 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 02:59:44,898 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 02:59:44,898 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 02:59:45,038 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 02:59:45,038 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 02:59:45,038 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 02:59:45,039 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 02:59:45,040 - __main__ - INFO - Flask application imported successfully
+2025-08-16 02:59:45,040 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 02:59:45,049 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 02:59:45,054 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 02:59:45,584 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:59:45] "GET / HTTP/1.1" 200 -
+2025-08-16 02:59:51,803 - app - INFO - File saved: uploads\aad4eaad-083f-49c3-869c-eed8cd215362.pdf
+2025-08-16 02:59:52,110 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 02:59:52,234 - rag.vector_store - INFO - Document added to vector store with ID: 969d5034-86d5-4248-97a5-067ce6db860a
+2025-08-16 02:59:52,315 - rag.vector_store - INFO - Found 6 similar documents
+2025-08-16 02:59:52,315 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:59:52,315 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:59:52,316 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:59:52,316 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:59:52,316 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:59:52,316 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:59:52,316 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:59:52,316 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:59:52,317 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:59:52,317 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 02:59:52,317 - rag.retriever - INFO - Retrieved 5 relevant documents
+2025-08-16 02:59:59,539 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 02:59:59] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 03:00:53,615 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\ai\\gemini_api.py', reloading
+2025-08-16 03:00:56,879 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 03:00:56,997 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 03:00:57,228 - __main__ - INFO - ✓ flask - OK
+2025-08-16 03:00:58,313 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 03:01:06,253 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 03:01:06,881 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 03:01:07,529 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 03:01:07,622 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 03:01:07,626 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 03:01:07,626 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 03:01:07,627 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 03:01:07,627 - __main__ - INFO - Directory exists: uploads
+2025-08-16 03:01:07,627 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 03:01:07,627 - __main__ - INFO - Directory exists: logs
+2025-08-16 03:01:07,647 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 03:01:07,647 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 03:01:12,465 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 03:01:12,465 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 03:01:12,585 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 03:01:12,585 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 03:01:12,585 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 03:01:12,585 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 03:01:12,587 - __main__ - INFO - Flask application imported successfully
+2025-08-16 03:01:12,588 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 03:01:12,598 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 03:01:12,604 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 03:01:18,124 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\ai\\gemini_api.py', reloading
+2025-08-16 03:01:19,038 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 03:01:19,160 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 03:01:19,381 - __main__ - INFO - ✓ flask - OK
+2025-08-16 03:01:20,195 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 03:01:26,922 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 03:01:27,566 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 03:01:28,225 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 03:01:28,299 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 03:01:28,303 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 03:01:28,304 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 03:01:28,304 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 03:01:28,304 - __main__ - INFO - Directory exists: uploads
+2025-08-16 03:01:28,304 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 03:01:28,305 - __main__ - INFO - Directory exists: logs
+2025-08-16 03:01:28,320 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 03:01:28,320 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 03:01:32,838 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 03:01:32,840 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 03:01:32,941 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 03:01:32,941 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 03:01:32,941 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 03:01:32,942 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 03:01:32,943 - __main__ - INFO - Flask application imported successfully
+2025-08-16 03:01:32,943 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 03:01:32,954 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 03:01:32,958 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 03:01:36,974 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\ai\\gemini_api.py', reloading
+2025-08-16 03:01:38,195 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 03:01:38,310 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 03:01:38,535 - __main__ - INFO - ✓ flask - OK
+2025-08-16 03:01:39,445 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 03:01:46,286 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 03:01:46,861 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 03:01:47,409 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 03:01:47,503 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 03:01:47,506 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 03:01:47,506 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 03:01:47,506 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 03:01:47,506 - __main__ - INFO - Directory exists: uploads
+2025-08-16 03:01:47,507 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 03:01:47,507 - __main__ - INFO - Directory exists: logs
+2025-08-16 03:01:47,521 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 03:01:47,522 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 03:01:53,026 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 03:01:53,026 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 03:01:53,147 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 03:01:53,147 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 03:01:53,148 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 03:01:53,148 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 03:01:53,149 - __main__ - INFO - Flask application imported successfully
+2025-08-16 03:01:53,150 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 03:01:53,158 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 03:01:53,163 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 03:01:55,743 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\ai\\gemini_api.py', reloading
+2025-08-16 03:01:57,213 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 03:01:57,337 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 03:01:57,609 - __main__ - INFO - ✓ flask - OK
+2025-08-16 03:01:58,532 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 03:02:05,484 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 03:02:06,124 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 03:02:06,753 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 03:02:06,830 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 03:02:06,835 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 03:02:06,835 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 03:02:06,835 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 03:02:06,836 - __main__ - INFO - Directory exists: uploads
+2025-08-16 03:02:06,836 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 03:02:06,836 - __main__ - INFO - Directory exists: logs
+2025-08-16 03:02:06,856 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 03:02:06,856 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 03:02:11,805 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 03:02:11,806 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 03:02:11,919 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 03:02:11,919 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 03:02:11,920 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 03:02:11,920 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 03:02:11,921 - __main__ - INFO - Flask application imported successfully
+2025-08-16 03:02:11,921 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 03:02:11,931 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 03:02:11,937 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 03:02:38,772 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\ai\\gemini_api.py', reloading
+2025-08-16 03:02:39,814 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 03:02:39,924 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 03:02:40,160 - __main__ - INFO - ✓ flask - OK
+2025-08-16 03:02:40,951 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 03:02:46,922 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 03:02:47,518 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 03:02:48,115 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 03:02:48,191 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 03:02:48,194 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 03:02:48,194 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 03:02:48,194 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 03:02:48,194 - __main__ - INFO - Directory exists: uploads
+2025-08-16 03:02:48,195 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 03:02:48,195 - __main__ - INFO - Directory exists: logs
+2025-08-16 03:02:48,211 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 03:02:48,212 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 03:02:52,863 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 03:02:52,863 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 03:02:52,975 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 03:02:52,976 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 03:02:52,976 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 03:02:52,976 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 03:02:52,978 - __main__ - INFO - Flask application imported successfully
+2025-08-16 03:02:52,978 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 03:02:52,989 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 03:02:52,998 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 03:02:53,589 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:02:53] "GET / HTTP/1.1" 200 -
+2025-08-16 03:03:02,444 - app - INFO - File saved: uploads\d3e4c1c5-f1fe-4b98-a4dc-b3b1819e60a6.pdf
+2025-08-16 03:03:02,750 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 03:03:02,866 - rag.vector_store - INFO - Document added to vector store with ID: 4bd1dfd3-73bb-4bb5-866b-5ef810d695d9
+2025-08-16 03:03:02,946 - rag.vector_store - INFO - Found 7 similar documents
+2025-08-16 03:03:02,946 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:03:02,947 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:03:02,947 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:03:02,947 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:03:02,948 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:03:02,948 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:03:02,948 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:03:02,948 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:03:02,949 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:03:02,949 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:03:02,949 - rag.retriever - INFO - Retrieved 5 relevant documents
+2025-08-16 03:03:08,525 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:03:08] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 03:03:40,485 - rag.vector_store - INFO - Found 7 similar documents
+2025-08-16 03:03:40,485 - rag.retriever - INFO - Retrieved 0 relevant documents
+2025-08-16 03:03:50,054 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:03:50] "POST /api/recommendations HTTP/1.1" 200 -
+2025-08-16 03:04:44,869 - app - INFO - File saved: uploads\56a4a14f-df3b-4ec6-8f24-82c0a53d2af8.pdf
+2025-08-16 03:04:44,966 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 03:04:44,980 - rag.vector_store - INFO - Document added to vector store with ID: 388552f7-685f-4dd9-96fc-d849b6385ebc
+2025-08-16 03:04:45,051 - rag.vector_store - INFO - Found 8 similar documents
+2025-08-16 03:04:45,051 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:04:45,051 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:04:45,052 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:04:45,052 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:04:45,052 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:04:45,053 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:04:45,053 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:04:45,053 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:04:45,053 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:04:45,053 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:04:45,054 - rag.retriever - INFO - Retrieved 5 relevant documents
+2025-08-16 03:04:50,652 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:04:50] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 03:05:26,113 - app - INFO - File saved: uploads\c312a802-a443-4bd7-9dfc-1e078f45a46a.pdf
+2025-08-16 03:05:26,239 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 03:05:26,251 - rag.vector_store - INFO - Document added to vector store with ID: ca0cd2a1-7135-497d-a745-f695520cf0df
+2025-08-16 03:05:26,320 - rag.vector_store - INFO - Found 9 similar documents
+2025-08-16 03:05:26,320 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:05:26,320 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:05:26,320 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:05:26,320 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:05:26,321 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:05:26,321 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:05:26,321 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:05:26,322 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:05:26,322 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:05:26,322 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:05:26,322 - rag.retriever - INFO - Retrieved 5 relevant documents
+2025-08-16 03:05:30,747 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:05:30] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 03:09:58,756 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:09:58] "GET / HTTP/1.1" 200 -
+2025-08-16 03:10:00,353 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:10:00] "GET /api/health HTTP/1.1" 200 -
+2025-08-16 03:10:19,237 - app - INFO - File saved: uploads\a15a09fa-b74c-46ff-9b90-dcc9bb5d15e4.pdf
+2025-08-16 03:10:19,325 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 03:10:19,337 - rag.vector_store - INFO - Document added to vector store with ID: 9bbd0a3f-4f65-4910-b184-f6d5397ee9a8
+2025-08-16 03:10:19,396 - rag.vector_store - INFO - Found 10 similar documents
+2025-08-16 03:10:19,397 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:10:19,397 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:10:19,397 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:10:19,397 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:10:19,398 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:10:19,398 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:10:19,398 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:10:19,398 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:10:19,398 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:10:19,398 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:10:19,399 - rag.retriever - INFO - Retrieved 5 relevant documents
+2025-08-16 03:10:24,814 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:10:24] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 03:11:10,280 - rag.vector_store - INFO - Found 6 similar documents
+2025-08-16 03:11:10,280 - rag.retriever - INFO - Retrieved 0 relevant documents
+2025-08-16 03:11:11,879 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:11:11] "POST /api/explain HTTP/1.1" 200 -
+2025-08-16 03:12:13,606 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\Vitalsense\\server\\app.py', reloading
+2025-08-16 03:12:18,212 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 03:12:18,335 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 03:12:18,589 - __main__ - INFO - ✓ flask - OK
+2025-08-16 03:12:19,667 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 03:12:27,498 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 03:12:28,140 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 03:12:28,782 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 03:12:28,857 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 03:12:28,861 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 03:12:28,861 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 03:12:28,861 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 03:12:28,861 - __main__ - INFO - Directory exists: uploads
+2025-08-16 03:12:28,861 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 03:12:28,861 - __main__ - INFO - Directory exists: logs
+2025-08-16 03:12:28,877 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 03:12:28,877 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 03:12:34,488 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 03:12:34,488 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 03:12:34,650 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 03:12:34,650 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 03:12:34,651 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 03:12:34,651 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 03:12:34,652 - __main__ - INFO - Flask application imported successfully
+2025-08-16 03:12:34,652 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 03:12:34,668 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 03:12:34,678 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 03:12:42,931 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:12:42] "GET / HTTP/1.1" 200 -
+2025-08-16 03:12:44,093 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:12:44] "GET /api/health HTTP/1.1" 200 -
+2025-08-16 03:12:47,644 - app - INFO - File saved: uploads\96786d5b-63fb-49fb-8cdc-aa1e7be26853.pdf
+2025-08-16 03:12:47,812 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 03:12:47,917 - rag.vector_store - INFO - Document added to vector store with ID: 6880bff3-cb8e-43b2-bc53-08700d34b282
+2025-08-16 03:12:48,011 - rag.vector_store - INFO - Found 10 similar documents
+2025-08-16 03:12:48,012 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:12:48,012 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:12:48,013 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:12:48,013 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:12:48,013 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:12:48,013 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:12:48,013 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:12:48,014 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:12:48,014 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:12:48,014 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 03:12:48,014 - rag.retriever - INFO - Retrieved 5 relevant documents
+2025-08-16 03:12:53,997 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:12:53] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 03:13:23,943 - rag.vector_store - INFO - Found 6 similar documents
+2025-08-16 03:13:23,943 - rag.retriever - INFO - Retrieved 0 relevant documents
+2025-08-16 03:13:26,279 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 03:13:26] "POST /api/explain HTTP/1.1" 200 -
+2025-08-16 14:26:53,573 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 14:26:54,451 - __main__ - INFO - ✓ flask - OK
+2025-08-16 14:26:59,529 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 14:27:34,149 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 14:27:39,782 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 14:27:41,458 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 14:27:42,268 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 14:27:42,279 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 14:27:42,279 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 14:27:42,280 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 14:27:42,280 - __main__ - INFO - Directory exists: uploads
+2025-08-16 14:27:42,282 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 14:27:42,282 - __main__ - INFO - Directory exists: logs
+2025-08-16 14:27:42,338 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 14:27:42,338 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 14:27:48,519 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 14:27:48,520 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 14:27:49,654 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 14:27:49,654 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 14:27:49,654 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 14:27:49,654 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 14:27:49,658 - __main__ - INFO - Flask application imported successfully
+2025-08-16 14:27:49,658 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 14:27:51,070 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.45.87:5000
+2025-08-16 14:27:51,071 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 14:27:51,075 - werkzeug - INFO -  * Restarting with stat
+2025-08-16 14:27:51,341 - __main__ - INFO - Starting VitalSense Medical Report Analysis System
+2025-08-16 14:27:51,881 - __main__ - INFO - ✓ flask - OK
+2025-08-16 14:27:53,986 - __main__ - INFO - ✓ chromadb - OK
+2025-08-16 14:28:10,207 - __main__ - INFO - ✓ sentence_transformers - OK
+2025-08-16 14:28:11,663 - __main__ - INFO - ✓ spacy - OK
+2025-08-16 14:28:12,981 - __main__ - INFO - ✓ google.generativeai - OK
+2025-08-16 14:28:13,129 - __main__ - INFO - ✓ pymupdf - OK
+2025-08-16 14:28:13,136 - __main__ - INFO - ✓ pytesseract - OK
+2025-08-16 14:28:13,136 - __main__ - INFO - ✓ PIL - OK
+2025-08-16 14:28:13,137 - __main__ - INFO - ✓ GOOGLE_API_KEY - OK
+2025-08-16 14:28:13,137 - __main__ - INFO - Directory exists: uploads
+2025-08-16 14:28:13,138 - __main__ - INFO - Directory exists: chroma_db
+2025-08-16 14:28:13,138 - __main__ - INFO - Directory exists: logs
+2025-08-16 14:28:13,173 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-16 14:28:13,173 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 14:28:18,893 - rag.embeddings - WARNING - ⚠️ Medical entity recognition disabled: No module named 'nmslib'
+2025-08-16 14:28:18,894 - rag.embeddings - INFO - System will work with basic text processing
+2025-08-16 14:28:19,191 - rag.vector_store - INFO - Vector store initialized at ./chroma_db
+2025-08-16 14:28:19,192 - rag.retriever - INFO - Medical retriever initialized
+2025-08-16 14:28:19,192 - ai.gemini_api - INFO - Gemini API initialized successfully
+2025-08-16 14:28:19,192 - ai.text_cleaner - INFO - Text cleaner initialized with medical patterns
+2025-08-16 14:28:19,195 - __main__ - INFO - Flask application imported successfully
+2025-08-16 14:28:19,197 - __main__ - INFO - Starting server on http://localhost:5000
+2025-08-16 14:28:19,219 - werkzeug - WARNING -  * Debugger is active!
+2025-08-16 14:28:19,233 - werkzeug - INFO -  * Debugger PIN: 429-797-620
+2025-08-16 14:28:29,078 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 14:28:29] "GET / HTTP/1.1" 200 -
+2025-08-16 14:28:31,303 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 14:28:31] "GET /api/health HTTP/1.1" 200 -
+2025-08-16 14:28:31,455 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 14:28:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-16 14:28:54,509 - app - INFO - File saved: uploads\55df09f7-a375-48f6-8590-fcd92e1503a2.pdf
+2025-08-16 14:28:54,919 - app - INFO - Embeddings shape: (384,), type: <class 'numpy.ndarray'>
+2025-08-16 14:28:55,097 - rag.vector_store - INFO - Document added to vector store with ID: a29483fd-ed65-4504-94eb-facbc8b76cb9
+2025-08-16 14:28:55,179 - rag.vector_store - INFO - Found 10 similar documents
+2025-08-16 14:28:55,180 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 14:28:55,180 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 14:28:55,181 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 14:28:55,181 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 14:28:55,181 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 14:28:55,181 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 14:28:55,182 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 14:28:55,182 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 14:28:55,182 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 14:28:55,182 - rag.embeddings - WARNING - Medical entity extraction not available - scispacy not loaded
+2025-08-16 14:28:55,183 - rag.retriever - INFO - Retrieved 5 relevant documents
+2025-08-16 14:29:00,711 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 14:29:00] "POST /api/upload HTTP/1.1" 200 -
+2025-08-16 14:31:05,033 - app - INFO - File saved: uploads\c8fb67d8-17f4-439b-a826-1bef24d04415.png
+2025-08-16 14:31:05,381 - app - ERROR - Error processing medical report: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-08-16 14:31:05,381 - app - ERROR - Error processing upload: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-08-16 14:31:05,382 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 14:31:05] "[35m[1mPOST /api/upload HTTP/1.1[0m" 500 -
+2025-08-16 14:48:24,375 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 14:48:24] "GET / HTTP/1.1" 200 -
+2025-08-16 14:48:26,294 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 14:48:26] "GET /api/health HTTP/1.1" 200 -
+2025-08-16 14:48:51,087 - app - INFO - File saved: uploads\83d1d953-8986-4fd5-a926-66740746c0ee.png
+2025-08-16 14:48:51,166 - app - ERROR - Error processing medical report: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-08-16 14:48:51,167 - app - ERROR - Error processing upload: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-08-16 14:48:51,169 - werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 14:48:51] "[35m[1mPOST /api/upload HTTP/1.1[0m" 500 -

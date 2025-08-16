@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalSense - Medical Report Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .upload-section {
+            border: 2px dashed #3498db;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .upload-section:hover {
+            border-color: #2980b9;
+            background-color: #f8f9fa;
+        }
+        input[type="file"] {
+            margin: 10px 0;
+            padding: 10px;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .error {
+            border-left-color: #e74c3c;
+            background-color: #fdf2f2;
+        }
+        .loading {
+            text-align: center;
+            color: #7f8c8d;
+            padding: 20px;
+        }
+        
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .api-section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+            resize: vertical;
+        }
+        select {
+            padding: 8px;
+            margin: 5px;
+            border-radius: 3px;
+            border: 1px solid #bdc3c7;
+        }
+        
+        .analysis-section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .analysis-section h5 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+            font-size: 16px;
+        }
+        
+        .analysis-section ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        .analysis-section li {
+            margin: 5px 0;
+            line-height: 1.4;
+        }
+        
+        .risk-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        
+        .risk-badge.low {
+            background-color: #d4edda;
+            color: #155724;
+            border: 2px solid #c3e6cb;
+        }
+        
+        .risk-badge.medium {
+            background-color: #fff3cd;
+            color: #856404;
+            border: 2px solid #ffeaa7;
+        }
+        
+        .risk-badge.high {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 2px solid #f5c6cb;
+        }
+        
+        .risk-badge.unknown {
+            background-color: #e2e3e5;
+            color: #383d41;
+            border: 2px solid #d6d8db;
+        }
+        
+        details {
+            margin-top: 15px;
+        }
+        
+        details summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+        
+        details pre {
+            background-color: #f1f2f6;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+        
+        .status-section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #e8f4fd;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .status-section h4 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        
+        .status-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .status-indicator.healthy {
+            background-color: #27ae60;
+        }
+        
+        .status-indicator.warning {
+            background-color: #f39c12;
+        }
+        
+        .status-indicator.error {
+            background-color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔬 VitalSense Medical Report Analysis</h1>
+        
+        <div id="status" class="status-section" style="display: none;">
+            <h4>🔄 System Status</h4>
+            <div id="statusContent"></div>
+        </div>
+        
+        <div class="upload-section">
+            <h3>Upload Medical Report</h3>
+            <p>Upload your medical report (PDF, X-ray, MRI, blood test, etc.) for AI-powered analysis</p>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" id="medicalFile" name="file" accept=".pdf,.png,.jpg,.jpeg,.tiff,.bmp" required>
+                <br>
+                <select name="language" id="language">
+                    <option value="English">English</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="French">French</option>
+                    <option value="German">German</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+                <br><br>
+                <button type="submit">Analyze Report</button>
+            </form>
+        </div>
+
+        <div id="result" class="result" style="display: none;">
+            <h3>Analysis Results</h3>
+            <div id="resultContent"></div>
+        </div>
+
+        <div class="api-section">
+            <h3>Medical Term Simplification</h3>
+            <textarea id="medicalText" placeholder="Enter medical text to simplify..."></textarea>
+            <br>
+            <select id="simplifyLanguage">
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="French">French</option>
+                <option value="German">German</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+            <button onclick="simplifyTerms()">Simplify Terms</button>
+            <div id="simplifyResult" class="result" style="display: none;">
+                <h4>Simplified Explanation</h4>
+                <div id="simplifyContent"></div>
+            </div>
+        </div>
+
+        <div class="api-section">
+            <h3>Health Recommendations</h3>
+            <textarea id="patientData" placeholder="Enter patient medical data..."></textarea>
+            <br>
+            <input type="text" id="patientAge" placeholder="Age" style="width: 80px;">
+            <select id="patientGender">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <select id="recommendLanguage">
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="French">French</option>
+                <option value="German">German</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+            <br><br>
+            <button onclick="getRecommendations()">Get Recommendations</button>
+            <div id="recommendResult" class="result" style="display: none;">
+                <h4>Personalized Recommendations</h4>
+                <div id="recommendContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Check system status when page loads
+        window.addEventListener('load', checkSystemStatus);
+        
+        async function checkSystemStatus() {
+            const statusDiv = document.getElementById('status');
+            const statusContent = document.getElementById('statusContent');
+            
+            try {
+                const response = await fetch('/api/health');
+                const data = await response.json();
+                
+                if (data.status === 'healthy') {
+                    statusDiv.style.display = 'block';
+                    statusContent.innerHTML = `
+                        <div class="status-item">
+                            <div class="status-indicator healthy"></div>
+                            <span>Server: Running</span>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-indicator healthy"></div>
+                            <span>Timestamp: ${new Date(data.timestamp).toLocaleString()}</span>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-indicator healthy"></div>
+                            <span>Components: ${Object.keys(data.components).join(', ')}</span>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                statusDiv.style.display = 'block';
+                statusContent.innerHTML = `
+                    <div class="status-item">
+                        <div class="status-indicator error"></div>
+                        <span>Server: Not responding</span>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-indicator error"></div>
+                        <span>Error: ${error.message}</span>
+                    </div>
+                `;
+            }
+        }
+        
+        document.getElementById('uploadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData();
+            const fileInput = document.getElementById('medicalFile');
+            const languageSelect = document.getElementById('language');
+            
+            if (fileInput.files.length === 0) {
+                alert('Please select a file');
+                return;
+            }
+            
+            formData.append('file', fileInput.files[0]);
+            formData.append('language', languageSelect.value);
+            
+            const resultDiv = document.getElementById('result');
+            const resultContent = document.getElementById('resultContent');
+            
+            resultDiv.style.display = 'block';
+            resultContent.innerHTML = '<div class="loading">Analyzing medical report...</div>';
+            
+            try {
+                const response = await fetch('/api/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    const analysis = data.analysis;
+                    let analysisHTML = `
+                        <h4>📋 Report Analysis</h4>
+                        <p><strong>File:</strong> ${data.filename}</p>
+                        
+                        <div class="analysis-section">
+                            <h5>📝 Summary</h5>
+                            <p>${analysis.summary || 'No summary available'}</p>
+                        </div>
+                        
+                        <div class="analysis-section">
+                            <h5>⚠️ Risk Assessment</h5>
+                            <span class="risk-badge ${analysis.risk_level?.toLowerCase() || 'unknown'}">${analysis.risk_level || 'Unknown'} Risk</span>
+                        </div>
+                    `;
+                    
+                                         if (analysis.key_findings && analysis.key_findings.length > 0) {
+                         analysisHTML += `
+                             <div class="analysis-section">
+                                 <h5>💡 What This Means for You</h5>
+                                 <ul>
+                                     ${analysis.key_findings.map(finding => `<li>${finding}</li>`).join('')}
+                                 </ul>
+                             </div>
+                         `;
+                     }
+                     
+                     if (analysis.health_implications && analysis.health_implications.length > 0) {
+                         analysisHTML += `
+                             <div class="analysis-section">
+                                 <h5>🤔 Should You Be Worried?</h5>
+                                 <ul>
+                                     ${analysis.health_implications.map(implication => `<li>${implication}</li>`).join('')}
+                                 </ul>
+                             </div>
+                         `;
+                     }
+                    
+                                         if (analysis.recommendations && analysis.recommendations.length > 0) {
+                         analysisHTML += `
+                             <div class="analysis-section">
+                                 <h5>✅ What You Should Do Next</h5>
+                                 <ul>
+                                     ${analysis.recommendations.map(rec => `<li>${rec}</li>`).join('')}
+                                 </ul>
+                             </div>
+                         `;
+                     }
+                    
+                    analysisHTML += `
+                        <div class="analysis-section">
+                            <h5>🔧 Raw Analysis Data</h5>
+                            <details>
+                                <summary>Click to view raw data</summary>
+                                <pre>${JSON.stringify(data.analysis, null, 2)}</pre>
+                            </details>
+                        </div>
+                    `;
+                    
+                    resultContent.innerHTML = analysisHTML;
+                } else {
+                    resultDiv.className = 'result error';
+                    resultContent.innerHTML = `<p><strong>Error:</strong> ${data.error}</p>`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultContent.innerHTML = `<p><strong>Error:</strong> ${error.message}</p>`;
+            }
+        });
+
+        async function simplifyTerms() {
+            const text = document.getElementById('medicalText').value;
+            const language = document.getElementById('simplifyLanguage').value;
+            
+            if (!text.trim()) {
+                alert('Please enter medical text to simplify');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('simplifyResult');
+            const resultContent = document.getElementById('simplifyContent');
+            
+            resultDiv.style.display = 'block';
+            resultContent.innerHTML = '<div class="loading">Simplifying medical terms...</div>';
+            
+            try {
+                const response = await fetch('/api/explain', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        text: text,
+                        language: language
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    const explanation = data.simplified_explanation;
+                    let resultHTML = `
+                                                 <div class="analysis-section">
+                             <h5>📝 Original Text</h5>
+                             <p>${data.original_text}</p>
+                         </div>
+                         
+                         <div class="analysis-section">
+                             <h5>🔤 Simple Explanation</h5>
+                             <p>${explanation.simplified_text || 'Processing...'}</p>
+                         </div>
+                     `;
+                     
+                     if (explanation.explained_terms && Object.keys(explanation.explained_terms).length > 0) {
+                         resultHTML += `
+                             <div class="analysis-section">
+                                 <h5>📚 Medical Terms Explained</h5>
+                                 <ul>
+                                     ${Object.entries(explanation.explained_terms).map(([term, def]) => 
+                                         `<li><strong>${term}:</strong> ${def}</li>`
+                                     ).join('')}
+                                 </ul>
+                             </div>
+                         `;
+                     }
+                    
+                    resultContent.innerHTML = resultHTML;
+                } else {
+                    resultContent.innerHTML = `<p><strong>Error:</strong> ${data.error}</p>`;
+                }
+            } catch (error) {
+                resultContent.innerHTML = `<p><strong>Error:</strong> ${error.message}</p>`;
+            }
+        }
+
+        async function getRecommendations() {
+            const medicalData = document.getElementById('patientData').value;
+            const age = document.getElementById('patientAge').value;
+            const gender = document.getElementById('patientGender').value;
+            const language = document.getElementById('recommendLanguage').value;
+            
+            if (!medicalData.trim()) {
+                alert('Please enter patient medical data');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('recommendResult');
+            const resultContent = document.getElementById('recommendContent');
+            
+            resultDiv.style.display = 'block';
+            resultContent.innerHTML = '<div class="loading">Generating recommendations...</div>';
+            
+            try {
+                const response = await fetch('/api/recommendations', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        medical_data: medicalData,
+                        patient_info: {
+                            age: age,
+                            gender: gender
+                        },
+                        language: language
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    const recommendations = data.recommendations;
+                    let resultHTML = '';
+                    
+                                         if (recommendations.lifestyle_recommendations && recommendations.lifestyle_recommendations.length > 0) {
+                         resultHTML += `
+                             <div class="analysis-section">
+                                 <h5>🏃 Lifestyle Changes You Can Make</h5>
+                                 <ul>
+                                     ${recommendations.lifestyle_recommendations.map(rec => `<li>${rec}</li>`).join('')}
+                                 </ul>
+                             </div>
+                         `;
+                     }
+                     
+                     if (recommendations.dietary_suggestions && recommendations.dietary_suggestions.length > 0) {
+                         resultHTML += `
+                             <div class="analysis-section">
+                                 <h5>🥗 What to Eat and Drink</h5>
+                                 <ul>
+                                     ${recommendations.dietary_suggestions.map(suggestion => `<li>${suggestion}</li>`).join('')}
+                                 </ul>
+                             </div>
+                         `;
+                     }
+                     
+                     if (recommendations.exercise_recommendations && recommendations.exercise_recommendations.length > 0) {
+                         resultHTML += `
+                             <div class="analysis-section">
+                                 <h5>💪 Exercise and Movement</h5>
+                                 <ul>
+                                     ${recommendations.exercise_recommendations.map(rec => `<li>${rec}</li>`).join('')}
+                                 </ul>
+                             </div>
+                         `;
+                     }
+                     
+                     if (recommendations.follow_up_actions && recommendations.follow_up_actions.length > 0) {
+                         resultHTML += `
+                             <div class="analysis-section">
+                                 <h5>📋 What to Do Next</h5>
+                                 <ul>
+                                     ${recommendations.follow_up_actions.map(action => `<li>${action}</li>`).join('')}
+                                 </ul>
+                             </div>
+                         `;
+                     }
+                    
+                    resultHTML += `
+                        <div class="analysis-section">
+                            <h5>🔧 Raw Data</h5>
+                            <details>
+                                <summary>Click to view raw data</summary>
+                                <pre>${JSON.stringify(data.recommendations, null, 2)}</pre>
+                            </details>
+                        </div>
+                    `;
+                    
+                    resultContent.innerHTML = resultHTML;
+                } else {
+                    resultContent.innerHTML = `<p><strong>Error:</strong> ${data.error}</p>`;
+                }
+            } catch (error) {
+                resultContent.innerHTML = `<p><strong>Error:</strong> ${error.message}</p>`;
+            }
+        }
+    </script>
+</body>
+</html>
